@@ -1,0 +1,11 @@
+framework module MoyasarSdk {
+  umbrella header "MoyasarSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module MoyasarSdk.Swift {
+    header "MoyasarSdk-Swift.h"
+    requires objc
+}

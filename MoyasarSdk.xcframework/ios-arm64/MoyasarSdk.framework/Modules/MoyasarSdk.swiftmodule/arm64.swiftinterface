@@ -1,0 +1,125 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoyasarSdk
+import Foundation
+@_exported import MoyasarSdk
+import PassKit
+import Swift
+import SwiftUI
+import WebKit
+public enum ApiPaymentSource {
+  case creditCard(MoyasarSdk.ApiCreditCardSource)
+  case applePay(MoyasarSdk.ApiApplePaySource)
+  case stcPay(MoyasarSdk.ApiStcPaySource)
+}
+extension ApiPaymentSource : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ApiPayment : Swift.Codable {
+  public var id: Swift.String
+  public var status: Swift.String
+  public var amount: Swift.Int
+  public var amountFormat: Swift.String
+  public var fee: Swift.Int
+  public var feeFormat: Swift.String?
+  public var currency: Swift.String
+  public var refunded: Swift.Int
+  public var refundedAt: Swift.String?
+  public var refundedFormat: Swift.String?
+  public var captured: Swift.Int
+  public var capturedAt: Swift.String?
+  public var capturedFormat: Swift.String?
+  public var voidedAt: Swift.String?
+  public var description: Swift.String?
+  public var invoiceId: Swift.String?
+  public var ip: Swift.String?
+  public var callbackUrl: Swift.String?
+  public var createdAt: Swift.String
+  public var updatedAt: Swift.String
+  public var metadata: [Swift.String : Swift.String]?
+  public var source: MoyasarSdk.ApiPaymentSource
+  public func isInitiated() -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ApiError : Swift.Codable {
+  public var message: Swift.String?
+  public var type: Swift.String?
+  public var errors: MoyasarSdk.ApiErrorDetail
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum ApiErrorDetail {
+  case single(Swift.String?)
+  case multi(MoyasarSdk.ApiMutliError)
+}
+extension ApiErrorDetail : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public typealias ApiMutliError = [Swift.String : [Swift.String]?]?
+public enum MoyasarError : Swift.Error {
+  case apiKeyNotSet
+  case invalidApiKey(Swift.String)
+  case networkError(Swift.Error)
+  case authorizationError(Swift.String)
+  case apiError(MoyasarSdk.ApiError)
+  case unexpectedError(Swift.String)
+}
+public struct PaymentRequest {
+  public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:])
+}
+final public class ApplePayService {
+  public init()
+  final public func authorizePayment(request: MoyasarSdk.PaymentRequest, token: PassKit.PKPaymentToken, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiPayment>) throws
+  @objc deinit
+}
+public struct ApiApplePaySource : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum PaymentDataValue {
+  case string(Swift.String?)
+  case dict(MoyasarSdk.PaymentDataDict)
+}
+extension PaymentDataValue : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public typealias PaymentDataDict = [Swift.String : MoyasarSdk.PaymentDataValue]
+public enum PaymentResult {
+  case completed(MoyasarSdk.ApiPayment)
+  case failed(Swift.Error)
+  case canceled
+}
+public class CreditCardViewModel : Foundation.ObservableObject {
+  public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public struct CreditCardView : SwiftUI.View {
+  public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
+  public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk14CreditCardViewV4bodyQrvp", 0) 🦸
+}
+public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
+public struct ApiCreditCardSource : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Moyasar {
+  public static var baseUrl: Swift.String
+  public static func setApiKey(_ key: Swift.String) throws
+}
+public enum ApiResult<T> {
+  case success(T)
+  case error(Swift.Error)
+}
+public typealias ApiResultHandler<T> = (MoyasarSdk.ApiResult<T>) -> ()
+public struct ApiStcPaySource : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
