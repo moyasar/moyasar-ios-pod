@@ -80,15 +80,6 @@ public struct ApiApplePaySource : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public enum PaymentDataValue {
-  case string(Swift.String?)
-  case dict(MoyasarSdk.PaymentDataDict)
-}
-extension PaymentDataValue : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
-}
-public typealias PaymentDataDict = [Swift.String : MoyasarSdk.PaymentDataValue]
 public enum PaymentResult {
   case completed(MoyasarSdk.ApiPayment)
   case failed(Swift.Error)
