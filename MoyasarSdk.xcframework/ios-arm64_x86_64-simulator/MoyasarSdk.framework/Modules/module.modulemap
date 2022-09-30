@@ -6,6 +6,6 @@ framework module MoyasarSdk {
 }
 
 module MoyasarSdk.Swift {
-    header "MoyasarSdk-Swift.h"
-    requires objc
+  header "MoyasarSdk-Swift.h"
+  requires objc
 }
