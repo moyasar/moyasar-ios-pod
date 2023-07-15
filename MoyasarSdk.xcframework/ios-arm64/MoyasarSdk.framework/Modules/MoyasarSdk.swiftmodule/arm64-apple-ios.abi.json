@@ -3577,7 +3577,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(amount:currency:description:metadata:)",
+            "printedName": "init(amount:currency:description:metadata:manual:saveCard:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3624,11 +3624,25 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk14PaymentRequestV6amount8currency11description8metadataACSi_S2SSDyS2SGtcfc",
-            "mangledName": "$s10MoyasarSdk14PaymentRequestV6amount8currency11description8metadataACSi_S2SSDyS2SGtcfc",
+            "usr": "s:10MoyasarSdk14PaymentRequestV6amount8currency11description8metadata6manual8saveCardACSi_S2SSDyS2SGS2btcfc",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV6amount8currency11description8metadata6manual8saveCardACSi_S2SSDyS2SGS2btcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
@@ -4258,16 +4272,306 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<MoyasarSdk.PaymentAuthView, SwiftUI.ZStack<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>>>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
+                    "name": "PaymentAuthView",
+                    "printedName": "MoyasarSdk.PaymentAuthView",
+                    "usr": "s:10MoyasarSdk15PaymentAuthViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZStack",
+                    "printedName": "SwiftUI.ZStack<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "VStack",
+                                "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "TupleView",
+                                    "printedName": "SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Tuple",
+                                        "printedName": "(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "CreditCardInfoView",
+                                            "printedName": "MoyasarSdk.CreditCardInfoView",
+                                            "usr": "s:10MoyasarSdk18CreditCardInfoViewV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Spacer",
+                                            "printedName": "SwiftUI.Spacer",
+                                            "usr": "s:7SwiftUI6SpacerV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Text",
+                                                "printedName": "SwiftUI.Text",
+                                                "usr": "s:7SwiftUI4TextV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_PaddingLayout",
+                                                "printedName": "SwiftUI._PaddingLayout",
+                                                "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ModifiedContent",
+                                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "ModifiedContent",
+                                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "ModifiedContent",
+                                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "ModifiedContent",
+                                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "ModifiedContent",
+                                                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "Button",
+                                                                        "printedName": "SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>",
+                                                                        "children": [
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "HStack",
+                                                                            "printedName": "SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>",
+                                                                            "children": [
+                                                                              {
+                                                                                "kind": "TypeNominal",
+                                                                                "name": "_ConditionalContent",
+                                                                                "printedName": "SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "kind": "TypeNominal",
+                                                                                    "name": "ActivityIndicator",
+                                                                                    "printedName": "MoyasarSdk.ActivityIndicator",
+                                                                                    "usr": "s:10MoyasarSdk17ActivityIndicatorV"
+                                                                                  },
+                                                                                  {
+                                                                                    "kind": "TypeNominal",
+                                                                                    "name": "Text",
+                                                                                    "printedName": "SwiftUI.Text",
+                                                                                    "usr": "s:7SwiftUI4TextV"
+                                                                                  }
+                                                                                ],
+                                                                                "usr": "s:7SwiftUI19_ConditionalContentV"
+                                                                              }
+                                                                            ],
+                                                                            "usr": "s:7SwiftUI6HStackV"
+                                                                          }
+                                                                        ],
+                                                                        "usr": "s:7SwiftUI6ButtonV"
+                                                                      },
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "_EnvironmentKeyTransformModifier",
+                                                                        "printedName": "SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>",
+                                                                        "children": [
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "Bool",
+                                                                            "printedName": "Swift.Bool",
+                                                                            "usr": "s:Sb"
+                                                                          }
+                                                                        ],
+                                                                        "usr": "s:7SwiftUI32_EnvironmentKeyTransformModifierV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                  },
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "_FlexFrameLayout",
+                                                                    "printedName": "SwiftUI._FlexFrameLayout",
+                                                                    "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                                              },
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "_PaddingLayout",
+                                                                "printedName": "SwiftUI._PaddingLayout",
+                                                                "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                                          },
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "_EnvironmentKeyWritingModifier",
+                                                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "SwiftUI.Color?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "Color",
+                                                                    "printedName": "SwiftUI.Color",
+                                                                    "usr": "s:7SwiftUI5ColorV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "_EnvironmentKeyWritingModifier",
+                                                        "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Optional",
+                                                            "printedName": "SwiftUI.Font?",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Font",
+                                                                "printedName": "SwiftUI.Font",
+                                                                "usr": "s:7SwiftUI4FontV"
+                                                              }
+                                                            ],
+                                                            "usr": "s:Sq"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_BackgroundModifier",
+                                                    "printedName": "SwiftUI._BackgroundModifier<SwiftUI.Color>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "Color",
+                                                        "printedName": "SwiftUI.Color",
+                                                        "usr": "s:7SwiftUI5ColorV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI19_BackgroundModifierV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_ClipEffect",
+                                                "printedName": "SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "RoundedRectangle",
+                                                    "printedName": "SwiftUI.RoundedRectangle",
+                                                    "usr": "s:7SwiftUI16RoundedRectangleV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI11_ClipEffectV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI9TupleViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI6VStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyTransformModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Bool",
+                                    "printedName": "Swift.Bool",
+                                    "usr": "s:Sb"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI32_EnvironmentKeyTransformModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_PaddingLayout",
+                            "printedName": "SwiftUI._PaddingLayout",
+                            "usr": "s:7SwiftUI14_PaddingLayoutV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI6ZStackV"
                   }
-                ]
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
               }
             ],
             "declKind": "Var",
@@ -4287,16 +4591,306 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<MoyasarSdk.PaymentAuthView, SwiftUI.ZStack<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
+                        "name": "PaymentAuthView",
+                        "printedName": "MoyasarSdk.PaymentAuthView",
+                        "usr": "s:10MoyasarSdk15PaymentAuthViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZStack",
+                        "printedName": "SwiftUI.ZStack<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "VStack",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "TupleView",
+                                        "printedName": "SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Tuple",
+                                            "printedName": "(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "CreditCardInfoView",
+                                                "printedName": "MoyasarSdk.CreditCardInfoView",
+                                                "usr": "s:10MoyasarSdk18CreditCardInfoViewV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Spacer",
+                                                "printedName": "SwiftUI.Spacer",
+                                                "usr": "s:7SwiftUI6SpacerV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "Text",
+                                                    "printedName": "SwiftUI.Text",
+                                                    "usr": "s:7SwiftUI4TextV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_PaddingLayout",
+                                                    "printedName": "SwiftUI._PaddingLayout",
+                                                    "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ModifiedContent",
+                                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "ModifiedContent",
+                                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "ModifiedContent",
+                                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "ModifiedContent",
+                                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "ModifiedContent",
+                                                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "ModifiedContent",
+                                                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>",
+                                                                        "children": [
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "Button",
+                                                                            "printedName": "SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>",
+                                                                            "children": [
+                                                                              {
+                                                                                "kind": "TypeNominal",
+                                                                                "name": "HStack",
+                                                                                "printedName": "SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "kind": "TypeNominal",
+                                                                                    "name": "_ConditionalContent",
+                                                                                    "printedName": "SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "kind": "TypeNominal",
+                                                                                        "name": "ActivityIndicator",
+                                                                                        "printedName": "MoyasarSdk.ActivityIndicator",
+                                                                                        "usr": "s:10MoyasarSdk17ActivityIndicatorV"
+                                                                                      },
+                                                                                      {
+                                                                                        "kind": "TypeNominal",
+                                                                                        "name": "Text",
+                                                                                        "printedName": "SwiftUI.Text",
+                                                                                        "usr": "s:7SwiftUI4TextV"
+                                                                                      }
+                                                                                    ],
+                                                                                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                                                                                  }
+                                                                                ],
+                                                                                "usr": "s:7SwiftUI6HStackV"
+                                                                              }
+                                                                            ],
+                                                                            "usr": "s:7SwiftUI6ButtonV"
+                                                                          },
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "_EnvironmentKeyTransformModifier",
+                                                                            "printedName": "SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>",
+                                                                            "children": [
+                                                                              {
+                                                                                "kind": "TypeNominal",
+                                                                                "name": "Bool",
+                                                                                "printedName": "Swift.Bool",
+                                                                                "usr": "s:Sb"
+                                                                              }
+                                                                            ],
+                                                                            "usr": "s:7SwiftUI32_EnvironmentKeyTransformModifierV"
+                                                                          }
+                                                                        ],
+                                                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                      },
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "_FlexFrameLayout",
+                                                                        "printedName": "SwiftUI._FlexFrameLayout",
+                                                                        "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                  },
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "_PaddingLayout",
+                                                                    "printedName": "SwiftUI._PaddingLayout",
+                                                                    "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                                              },
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "_EnvironmentKeyWritingModifier",
+                                                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "Optional",
+                                                                    "printedName": "SwiftUI.Color?",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "Color",
+                                                                        "printedName": "SwiftUI.Color",
+                                                                        "usr": "s:7SwiftUI5ColorV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:Sq"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                                          },
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "_EnvironmentKeyWritingModifier",
+                                                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "SwiftUI.Font?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "Font",
+                                                                    "printedName": "SwiftUI.Font",
+                                                                    "usr": "s:7SwiftUI4FontV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "_BackgroundModifier",
+                                                        "printedName": "SwiftUI._BackgroundModifier<SwiftUI.Color>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Color",
+                                                            "printedName": "SwiftUI.Color",
+                                                            "usr": "s:7SwiftUI5ColorV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI19_BackgroundModifierV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_ClipEffect",
+                                                    "printedName": "SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "RoundedRectangle",
+                                                        "printedName": "SwiftUI.RoundedRectangle",
+                                                        "usr": "s:7SwiftUI16RoundedRectangleV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI11_ClipEffectV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI9TupleViewV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6VStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyTransformModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Bool",
+                                        "printedName": "Swift.Bool",
+                                        "usr": "s:Sb"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI32_EnvironmentKeyTransformModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_PaddingLayout",
+                                "printedName": "SwiftUI._PaddingLayout",
+                                "usr": "s:7SwiftUI14_PaddingLayoutV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI6ZStackV"
                       }
-                    ]
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
                   }
                 ],
                 "declKind": "Accessor",
@@ -4329,16 +4923,306 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<MoyasarSdk.PaymentAuthView, SwiftUI.ZStack<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
+                        "name": "PaymentAuthView",
+                        "printedName": "MoyasarSdk.PaymentAuthView",
+                        "usr": "s:10MoyasarSdk15PaymentAuthViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZStack",
+                        "printedName": "SwiftUI.ZStack<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._PaddingLayout>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "VStack",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "TupleView",
+                                        "printedName": "SwiftUI.TupleView<(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Tuple",
+                                            "printedName": "(MoyasarSdk.CreditCardInfoView, SwiftUI.Spacer, SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>, SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>)",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "CreditCardInfoView",
+                                                "printedName": "MoyasarSdk.CreditCardInfoView",
+                                                "usr": "s:10MoyasarSdk18CreditCardInfoViewV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Spacer",
+                                                "printedName": "SwiftUI.Spacer",
+                                                "usr": "s:7SwiftUI6SpacerV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.Text, SwiftUI._PaddingLayout>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "Text",
+                                                    "printedName": "SwiftUI.Text",
+                                                    "usr": "s:7SwiftUI4TextV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_PaddingLayout",
+                                                    "printedName": "SwiftUI._PaddingLayout",
+                                                    "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "ModifiedContent",
+                                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._BackgroundModifier<SwiftUI.Color>>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "ModifiedContent",
+                                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "ModifiedContent",
+                                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "ModifiedContent",
+                                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>, SwiftUI._PaddingLayout>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "ModifiedContent",
+                                                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>, SwiftUI._FlexFrameLayout>",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "ModifiedContent",
+                                                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>, SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>>",
+                                                                        "children": [
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "Button",
+                                                                            "printedName": "SwiftUI.Button<SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>>",
+                                                                            "children": [
+                                                                              {
+                                                                                "kind": "TypeNominal",
+                                                                                "name": "HStack",
+                                                                                "printedName": "SwiftUI.HStack<SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>>",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "kind": "TypeNominal",
+                                                                                    "name": "_ConditionalContent",
+                                                                                    "printedName": "SwiftUI._ConditionalContent<MoyasarSdk.ActivityIndicator, SwiftUI.Text>",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "kind": "TypeNominal",
+                                                                                        "name": "ActivityIndicator",
+                                                                                        "printedName": "MoyasarSdk.ActivityIndicator",
+                                                                                        "usr": "s:10MoyasarSdk17ActivityIndicatorV"
+                                                                                      },
+                                                                                      {
+                                                                                        "kind": "TypeNominal",
+                                                                                        "name": "Text",
+                                                                                        "printedName": "SwiftUI.Text",
+                                                                                        "usr": "s:7SwiftUI4TextV"
+                                                                                      }
+                                                                                    ],
+                                                                                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                                                                                  }
+                                                                                ],
+                                                                                "usr": "s:7SwiftUI6HStackV"
+                                                                              }
+                                                                            ],
+                                                                            "usr": "s:7SwiftUI6ButtonV"
+                                                                          },
+                                                                          {
+                                                                            "kind": "TypeNominal",
+                                                                            "name": "_EnvironmentKeyTransformModifier",
+                                                                            "printedName": "SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>",
+                                                                            "children": [
+                                                                              {
+                                                                                "kind": "TypeNominal",
+                                                                                "name": "Bool",
+                                                                                "printedName": "Swift.Bool",
+                                                                                "usr": "s:Sb"
+                                                                              }
+                                                                            ],
+                                                                            "usr": "s:7SwiftUI32_EnvironmentKeyTransformModifierV"
+                                                                          }
+                                                                        ],
+                                                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                      },
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "_FlexFrameLayout",
+                                                                        "printedName": "SwiftUI._FlexFrameLayout",
+                                                                        "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                                  },
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "_PaddingLayout",
+                                                                    "printedName": "SwiftUI._PaddingLayout",
+                                                                    "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                                              },
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "_EnvironmentKeyWritingModifier",
+                                                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "Optional",
+                                                                    "printedName": "SwiftUI.Color?",
+                                                                    "children": [
+                                                                      {
+                                                                        "kind": "TypeNominal",
+                                                                        "name": "Color",
+                                                                        "printedName": "SwiftUI.Color",
+                                                                        "usr": "s:7SwiftUI5ColorV"
+                                                                      }
+                                                                    ],
+                                                                    "usr": "s:Sq"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                                          },
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "_EnvironmentKeyWritingModifier",
+                                                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "SwiftUI.Font?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "Font",
+                                                                    "printedName": "SwiftUI.Font",
+                                                                    "usr": "s:7SwiftUI4FontV"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "_BackgroundModifier",
+                                                        "printedName": "SwiftUI._BackgroundModifier<SwiftUI.Color>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Color",
+                                                            "printedName": "SwiftUI.Color",
+                                                            "usr": "s:7SwiftUI5ColorV"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI19_BackgroundModifierV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_ClipEffect",
+                                                    "printedName": "SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "RoundedRectangle",
+                                                        "printedName": "SwiftUI.RoundedRectangle",
+                                                        "usr": "s:7SwiftUI16RoundedRectangleV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:7SwiftUI11_ClipEffectV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI9TupleViewV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6VStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyTransformModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyTransformModifier<Swift.Bool>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Bool",
+                                        "printedName": "Swift.Bool",
+                                        "usr": "s:Sb"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI32_EnvironmentKeyTransformModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_PaddingLayout",
+                                "printedName": "SwiftUI._PaddingLayout",
+                                "usr": "s:7SwiftUI14_PaddingLayoutV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI6ZStackV"
                       }
-                    ]
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
                   }
                 ]
               }
@@ -4936,6 +5820,27 @@
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
+      "kind": "Array",
+      "offset": 263,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 118,
@@ -4948,6 +5853,118 @@
       "offset": 148,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 18,
+      "value": "\"name-is-required\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 21,
+      "value": "\"both-names-required\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 20,
+      "value": "\"only-english-alpha\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "Array",
+      "offset": 549,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiPayment.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 11,
+      "value": "\"initiated\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 422,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
@@ -4971,18 +5988,410 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 14,
+      "value": "\"Name on Card\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 13,
+      "value": "\"v1\/payments\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 908,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 16,
+      "value": "\"Basic \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1002,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1067,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 17,
+      "value": "\"moyasar-ios-sdk\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 15,
+      "value": "\"X-MOYASAR-LIB\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1233,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1625,
+      "length": 23,
+      "value": "\"Invalid response type\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 27,
+      "value": "\"No data returned from API\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1991,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1997,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 4,
+      "value": "1900"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 416,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "StringLiteral",
+      "offset": 1128,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1159,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1254,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1261,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1320,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1331,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1427,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1438,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1522,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1623,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1630,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1687,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1698,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1705,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 22,
+      "value": "\"card-number-required\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 21,
+      "value": "\"invalid-card-number\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 21,
+      "value": "\"unsupported-network\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 98,
+      "offset": 115,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Dictionary",
-      "offset": 155,
+      "offset": 188,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 216,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 248,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/StcPayView.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 15,
+      "value": "\"Hello, World!\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/ApplePayService.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/ApplePayService.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 7,
+      "value": "\"false\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
@@ -4990,6 +6399,90 @@
       "offset": 100,
       "length": 10,
       "value": "\"applepay\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 7,
+      "value": "\"debit\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 8,
+      "value": "\"credit\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2426,
+      "length": 9,
+      "value": "\"prepaid\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 7,
+      "value": "\"store\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2529,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 11,
+      "value": "\"activated\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2762,
+      "length": 20,
+      "value": "\"requiresActivation\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2828,
+      "length": 12,
+      "value": "\"activating\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2885,
+      "length": 11,
+      "value": "\"suspended\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2943,
+      "length": 13,
+      "value": "\"deactivated\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 9,
+      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
@@ -5041,11 +6534,235 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 665,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 828,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 873,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 904,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 936,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1032,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 5,
+      "value": "\" \/ \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 436,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 365,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 17,
+      "value": "\"sdk.moyasar.com\""
+    },
+    {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 11,
       "value": "\"MoyasarSdk.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1735,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1786,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1795,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1859,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1911,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 1925,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
@@ -5090,6 +6807,90 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1858,
+      "length": 5,
+      "value": "\"pay\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1878,
+      "length": 12,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1889,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2883,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3472,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3481,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3538,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3547,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3783,
+      "length": 32,
+      "value": "\"https:\/\/sdk.moyasar.com\/return\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 3928,
+      "length": 14,
+      "value": "[(\"sdk\", \"ios\")]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4798,
+      "length": 24,
+      "value": "\"Current payment is nil\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5275,
+      "length": 43,
+      "value": "\"Initiated payment has invalid source type\""
+    },
+    {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 146,
@@ -5109,6 +6910,69 @@
       "offset": 173,
       "length": 5,
       "value": "0.882"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1395,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1428,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1605,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1659,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1945,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2064,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2094,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
@@ -5132,6 +6996,20 @@
       "value": "\"Testing iOS SDK\""
     },
     {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 2572,
+      "length": 14,
+      "value": "\"Got a Result\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 2679,
+      "length": 14,
+      "value": "\"Got a Result\""
+    },
+    {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
       "kind": "StringLiteral",
       "offset": 188,
@@ -5144,6 +7022,377 @@
       "offset": 60,
       "length": 1284,
       "value": "[(\"ADP\", 0), (\"AFN\", 0), (\"ALL\", 0), (\"AMD\", 0), (\"BHD\", 3), (\"BIF\", 0), (\"BYN\", 2), (\"BYR\", 0), (\"CAD\", 2), (\"CHF\", 2), (\"CLF\", 4), (\"CLP\", 0), (\"COP\", 0), (\"CRC\", 0), (\"CZK\", 0), (\"DJF\", 0), (\"DKK\", 2), (\"ESP\", 0), (\"GNF\", 0), (\"GYD\", 0), (\"HUF\", 0), (\"IDR\", 0), (\"IQD\", 0), (\"IRR\", 0), (\"ISK\", 0), (\"ITL\", 0), (\"JOD\", 3), (\"JPY\", 0), (\"KMF\", 0), (\"KPW\", 0), (\"KRW\", 0), (\"KWD\", 3), (\"LAK\", 0), (\"LBP\", 0), (\"LUF\", 0), (\"LYD\", 3), (\"MGA\", 0), (\"MGF\", 0), (\"MMK\", 0), (\"MNT\", 0), (\"MRO\", 0), (\"MUR\", 0), (\"NOK\", 0), (\"OMR\", 3), (\"PKR\", 0), (\"PYG\", 0), (\"RSD\", 0), (\"RWF\", 0), (\"SEK\", 0), (\"SLL\", 0), (\"SOS\", 0), (\"STD\", 0), (\"SYP\", 0), (\"TMM\", 0), (\"TND\", 3), (\"TRL\", 0), (\"TWD\", 0), (\"TZS\", 0), (\"UGX\", 0), (\"UYI\", 0), (\"UYW\", 4), (\"UZS\", 0), (\"VEF\", 0), (\"VND\", 0), (\"VUV\", 0), (\"XAF\", 0), (\"XOF\", 0), (\"XPF\", 0), (\"YER\", 0), (\"ZMK\", 0), (\"ZWD\", 0)]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1456,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "kind": "FloatLiteral",
+      "offset": 1567,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "kind": "FloatLiteral",
+      "offset": 1717,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 14,
+      "value": "\"name-on-card\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 478,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 509,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 636,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 648,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 659,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 673,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 690,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 812,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 855,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 13,
+      "value": "\"card-number\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1152,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1322,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1372,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1384,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1395,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1409,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1426,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1578,
+      "length": 6,
+      "value": "\"mada\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1821,
+      "length": 6,
+      "value": "\"visa\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2070,
+      "length": 12,
+      "value": "\"mastercard\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2319,
+      "length": 6,
+      "value": "\"amex\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2507,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2547,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2661,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2704,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2814,
+      "length": 8,
+      "value": "\"expiry\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2946,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3019,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3100,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3146,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3158,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3169,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3183,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3200,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3324,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3367,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3476,
+      "length": 5,
+      "value": "\"cvc\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3607,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3680,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3761,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3807,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3819,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3830,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3844,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3861,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "StringLiteral",
+      "offset": 3993,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4036,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
@@ -5223,11 +7472,130 @@
       "value": "\"Operation canceled\""
     },
     {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 20,
+      "value": "\"expiry-is-required\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 16,
+      "value": "\"invalid-expiry\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 14,
+      "value": "\"expired-card\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 551,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
       "kind": "Array",
       "offset": 194,
       "length": 1770,
       "value": "[\"440647\", \"440795\", \"446404\", \"457865\", \"493428\", \"417633\", \"468540\", \"468541\", \"468542\", \"468543\", \"446393\", \"400861\", \"409201\", \"458456\", \"484783\", \"462220\", \"455708\", \"455036\", \"486094\", \"486095\", \"486096\", \"440533\", \"489317\", \"489318\", \"489319\", \"445564\", \"401757\", \"410685\", \"432328\", \"428671\", \"428672\", \"428673\", \"446672\", \"434107\", \"431361\", \"422817\", \"422818\", \"422819\", \"428331\", \"483010\", \"483011\", \"483012\", \"419593\", \"439956\", \"439954\", \"407197\", \"407395\", \"588845\", \"968208\", \"588846\", \"539931\", \"558848\", \"557606\", \"968210\", \"636120\", \"968201\", \"588847\", \"968205\", \"588848\", \"968203\", \"504300\", \"968211\", \"968206\", \"543357\", \"604906\", \"521076\", \"588850\", \"968202\", \"529415\", \"535825\", \"543085\", \"524130\", \"554180\", \"549760\", \"588849\", \"968209\", \"524514\", \"529741\", \"537767\", \"535989\", \"536023\", \"513213\", \"585265\", \"588983\", \"588982\", \"589005\", \"508160\", \"531095\", \"530906\", \"532013\", \"588851\", \"605141\", \"968204\", \"589206\", \"968207\", \"520058\", \"530060\", \"531196\"]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2115,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 4,
+      "value": "\"34\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "Array",
+      "offset": 995,
+      "length": 7,
+      "value": "[4, 10]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "Array",
+      "offset": 1164,
+      "length": 10,
+      "value": "[4, 8, 12]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1181,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 3,
+      "value": "\" \""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
@@ -5249,6 +7617,48 @@
       "offset": 265,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 14,
+      "value": "\"cvc-required\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 13,
+      "value": "\"invalid-cvc\""
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",

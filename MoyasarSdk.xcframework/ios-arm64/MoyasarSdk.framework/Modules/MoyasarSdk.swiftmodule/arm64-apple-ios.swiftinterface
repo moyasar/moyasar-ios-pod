@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoyasarSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
@@ -17,8 +17,8 @@ public enum ApiPaymentSource {
   case stcPay(MoyasarSdk.ApiStcPaySource)
 }
 extension MoyasarSdk.ApiPaymentSource : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct ApiPayment : Swift.Codable {
   public var id: Swift.String
@@ -44,35 +44,35 @@ public struct ApiPayment : Swift.Codable {
   public var metadata: [Swift.String : Swift.String]?
   public var source: MoyasarSdk.ApiPaymentSource
   public func isInitiated() -> Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ApiError : Swift.Codable {
   public var message: Swift.String?
   public var type: Swift.String?
   public var errors: MoyasarSdk.ApiErrorDetail
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ApiErrorDetail {
   case single(Swift.String?)
   case multi(MoyasarSdk.ApiMutliError)
 }
 extension MoyasarSdk.ApiErrorDetail : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias ApiMutliError = [Swift.String : [Swift.String]?]?
 public enum MoyasarError : Swift.Error {
   case apiKeyNotSet
   case invalidApiKey(Swift.String)
-  case networkError(Swift.Error)
+  case networkError(any Swift.Error)
   case authorizationError(Swift.String)
   case apiError(MoyasarSdk.ApiError)
   case unexpectedError(Swift.String)
 }
 public struct PaymentRequest {
-  public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:])
+  public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false)
 }
 final public class ApplePayService {
   public init()
@@ -80,12 +80,12 @@ final public class ApplePayService {
   @objc deinit
 }
 public struct ApiApplePaySource : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum PaymentResult {
   case completed(MoyasarSdk.ApiPayment)
-  case failed(Swift.Error)
+  case failed(any Swift.Error)
   case canceled
 }
 public class CreditCardViewModel : Foundation.ObservableObject {
@@ -102,8 +102,8 @@ public class CreditCardViewModel : Foundation.ObservableObject {
 }
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Moyasar {
   public static var baseUrl: Swift.String
@@ -111,10 +111,10 @@ public struct Moyasar {
 }
 public enum ApiResult<T> {
   case success(T)
-  case error(Swift.Error)
+  case error(any Swift.Error)
 }
 public typealias ApiResultHandler<T> = (MoyasarSdk.ApiResult<T>) -> ()
 public struct ApiStcPaySource : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
