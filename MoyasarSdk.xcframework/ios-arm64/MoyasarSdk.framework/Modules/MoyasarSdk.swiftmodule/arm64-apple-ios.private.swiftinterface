@@ -20,6 +20,24 @@ extension MoyasarSdk.ApiPaymentSource : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public struct ApiToken : Swift.Codable {
+  public var id: Swift.String
+  public var status: Swift.String
+  public var brand: Swift.String
+  public var funding: Swift.String
+  public var country: Swift.String
+  public var month: Swift.String
+  public var year: Swift.String
+  public var name: Swift.String
+  public var lastFour: Swift.String
+  public var metadata: [Swift.String : Swift.String]?
+  public var message: Swift.String?
+  public var verificationUrl: Swift.String?
+  public var createdAt: Swift.String
+  public var updatedAt: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct ApiPayment : Swift.Codable {
   public var id: Swift.String
   public var status: Swift.String
@@ -72,7 +90,7 @@ public enum MoyasarError : Swift.Error {
   case unexpectedError(Swift.String)
 }
 public struct PaymentRequest {
-  public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false)
+  public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false)
 }
 final public class ApplePayService {
   public init()
@@ -85,6 +103,7 @@ public struct ApiApplePaySource : Swift.Codable {
 }
 public enum PaymentResult {
   case completed(MoyasarSdk.ApiPayment)
+  case saveOnlyToken(MoyasarSdk.ApiToken)
   case failed(any Swift.Error)
   case canceled
 }
