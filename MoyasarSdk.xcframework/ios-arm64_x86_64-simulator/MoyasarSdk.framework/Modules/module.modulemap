@@ -1,7 +1,7 @@
 framework module MoyasarSdk {
   umbrella header "MoyasarSdk.h"
-
   export *
+
   module * { export * }
 }
 

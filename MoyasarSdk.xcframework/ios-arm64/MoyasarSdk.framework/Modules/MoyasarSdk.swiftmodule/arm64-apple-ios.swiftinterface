@@ -1,16 +1,19 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoyasarSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
+import DeveloperToolsSupport
 import Foundation
 @_exported import MoyasarSdk
 import PassKit
 import Swift
 import SwiftUI
+import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum ApiPaymentSource {
   case creditCard(MoyasarSdk.ApiCreditCardSource)
   case applePay(MoyasarSdk.ApiApplePaySource)
@@ -81,6 +84,11 @@ extension MoyasarSdk.ApiErrorDetail : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias ApiMutliError = [Swift.String : [Swift.String]?]?
+@_hasMissingDesignatedInitializers final public class PaymentService {
+  final public func create(_ paymentRequest: MoyasarSdk.ApiPaymentRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiPayment>) throws
+  final public func createToken(_ tokenRequest: MoyasarSdk.ApiTokenRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiToken>) throws
+  @objc deinit
+}
 public enum MoyasarError : Swift.Error {
   case apiKeyNotSet
   case invalidApiKey(Swift.String)
@@ -98,6 +106,21 @@ final public class ApplePayService {
   @objc deinit
 }
 public struct ApiApplePaySource : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MoyasarSdk.ApiApplePaySource {
+  public static func fromPKToken(_ token: PassKit.PKPaymentToken) -> MoyasarSdk.ApiApplePaySource
+}
+public struct ApplePayToken : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ApplePayPaymentMethod : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ApplePayPaymentPass : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -124,6 +147,10 @@ public struct ApiCreditCardSource : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct ApiPaymentRequest : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct Moyasar {
   public static var baseUrl: Swift.String
   public static func setApiKey(_ key: Swift.String) throws
@@ -134,6 +161,10 @@ public enum ApiResult<T> {
 }
 public typealias ApiResultHandler<T> = (MoyasarSdk.ApiResult<T>) -> ()
 public struct ApiStcPaySource : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ApiTokenRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
