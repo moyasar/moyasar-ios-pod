@@ -4619,6 +4619,27 @@
         "printedName": "PaymentService",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentService",
+                "printedName": "MoyasarSdk.PaymentService",
+                "usr": "s:10MoyasarSdk14PaymentServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk14PaymentServiceCACycfc",
+            "mangledName": "$s10MoyasarSdk14PaymentServiceCACycfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "create",
             "printedName": "create(_:handler:)",
@@ -4734,8 +4755,7 @@
         "declAttributes": [
           "AccessControl",
           "Final"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -7712,6 +7732,131 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(name:number:cvc:month:year:saveOnly:callbackUrl:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiTokenRequest",
+                "printedName": "MoyasarSdk.ApiTokenRequest",
+                "usr": "s:10MoyasarSdk15ApiTokenRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk15ApiTokenRequestV4name6number3cvc5month4year8saveOnly11callbackUrl8metadataACSS_S2SSgA2LSbALSDyS2SGSgtcfc",
+            "mangledName": "$s10MoyasarSdk15ApiTokenRequestV4name6number3cvc5month4year8saveOnly11callbackUrl8metadataACSS_S2SSgA2LSbALSDyS2SGSgtcfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -8089,196 +8234,196 @@
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1036,
       "length": 12,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1046,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 1125,
       "length": 16,
       "value": "\"Basic \""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1114,
+      "offset": 1140,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1163,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1205,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1245,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1286,
       "length": 17,
       "value": "\"moyasar-ios-sdk\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1299,
+      "offset": 1325,
       "length": 15,
       "value": "\"X-MOYASAR-LIB\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1371,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1737,
+      "offset": 1763,
       "length": 23,
       "value": "\"Invalid response type\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 1984,
       "length": 27,
       "value": "\"No data returned from API\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2103,
+      "offset": 2129,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2109,
+      "offset": 2135,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3090,
+      "offset": 3116,
       "length": 12,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3100,
+      "offset": 3126,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3205,
       "length": 16,
       "value": "\"Basic \""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3194,
+      "offset": 3220,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3243,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3285,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3299,
+      "offset": 3325,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3340,
+      "offset": 3366,
       "length": 17,
       "value": "\"moyasar-ios-sdk\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3379,
+      "offset": 3405,
       "length": 15,
       "value": "\"X-MOYASAR-LIB\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3425,
+      "offset": 3451,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 3817,
+      "offset": 3843,
       "length": 23,
       "value": "\"Invalid response type\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 4038,
+      "offset": 4064,
       "length": 27,
       "value": "\"No data returned from API\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4183,
+      "offset": 4209,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4189,
+      "offset": 4215,
       "length": 3,
       "value": "299"
     },
@@ -9839,35 +9984,49 @@
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 195,
+      "offset": 217,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "kind": "Dictionary",
+      "offset": 292,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 981,
       "length": 16,
       "value": "\"Argument Error\""
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 516,
+      "offset": 1005,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 743,
+      "offset": 1232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 1263,
       "length": 32,
       "value": "\"https:\/\/sdk.moyasar.com\/return\""
     },

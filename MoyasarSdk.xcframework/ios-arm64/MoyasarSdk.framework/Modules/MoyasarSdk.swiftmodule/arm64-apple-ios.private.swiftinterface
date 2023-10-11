@@ -84,7 +84,8 @@ extension MoyasarSdk.ApiErrorDetail : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias ApiMutliError = [Swift.String : [Swift.String]?]?
-@_hasMissingDesignatedInitializers final public class PaymentService {
+final public class PaymentService {
+  public init()
   final public func create(_ paymentRequest: MoyasarSdk.ApiPaymentRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiPayment>) throws
   final public func createToken(_ tokenRequest: MoyasarSdk.ApiTokenRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiToken>) throws
   @objc deinit
@@ -165,6 +166,7 @@ public struct ApiStcPaySource : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ApiTokenRequest : Swift.Codable {
+  public init(name: Swift.String, number: Swift.String, cvc: Swift.String?, month: Swift.String?, year: Swift.String?, saveOnly: Swift.Bool = false, callbackUrl: Swift.String?, metadata: [Swift.String : Swift.String]? = [:])
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		wTKo8ZJINTejurPKLt3875DpkrM=
+		16TnpKbtfayn/IvOV5BQIDjEl/E=
 		</data>
 		<key>Headers/MoyasarSdk-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		X2zYe89HcXzknC2suDf8yDfW+7A=
+		5rgfOY0kfgr4VKJr6FB7pNjmwkY=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3a9ee5I7fdQ/nCRPynqwUJ2CAIY=
+		j2nZulUMeg/ucQAq07xSx0EUIag=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3a9ee5I7fdQ/nCRPynqwUJ2CAIY=
+		j2nZulUMeg/ucQAq07xSx0EUIag=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AGLY+akrM3o5lWcrjwAWm+wNQwE=
+		zWv+dbTNRbOgisEYF78P/mm4sp0=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		X2zYe89HcXzknC2suDf8yDfW+7A=
+		5rgfOY0kfgr4VKJr6FB7pNjmwkY=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		raZjbt0wcnY5bAaotH2lFIWN6T4=
+		gCh7nHnArTCFzNrKCwO3OOyngfI=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		raZjbt0wcnY5bAaotH2lFIWN6T4=
+		gCh7nHnArTCFzNrKCwO3OOyngfI=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H+N21WfuY9Zu80SCgDjjxCH+jrU=
+		J2hMt/cy/mNeTIKxSXRPVytXhe4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aH5YTEEqTD1No65TQfVdkHAoKqONkQR/GvVzXduDrSA=
+			9pVV1VaOHfaQvMJGVT9Mwv0v/tvaCiCuYvAsJP+LLRQ=
 			</data>
 		</dict>
 		<key>Headers/MoyasarSdk-Swift.h</key>
@@ -110,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AykVF42LF1sDL+qiS+9FtB7Ta1ET0Y8nlJQo2Etji2o=
+			DERW372/6u7Sgv7bp8vUipDt9x2n8AMZMWJWbtsj+ZQ=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5c7qWCyMtCBMnr6DuLgb5F2Ol441joAEm9z90N4F9s=
+			UOlxJ8YBON3Z7zW7L0See4T+qezzdiTIsTAIIEheUUw=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -131,28 +131,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5c7qWCyMtCBMnr6DuLgb5F2Ol441joAEm9z90N4F9s=
+			UOlxJ8YBON3Z7zW7L0See4T+qezzdiTIsTAIIEheUUw=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2JkLXHjcZChCYPlV04hBg/H9RLs1A3JjvwIQF66Msc=
+			0AScV3SxME5JRoxFZW0uPa/aFfU72bp7yTA2jTuywtQ=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AykVF42LF1sDL+qiS+9FtB7Ta1ET0Y8nlJQo2Etji2o=
+			DERW372/6u7Sgv7bp8vUipDt9x2n8AMZMWJWbtsj+ZQ=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWYiQqCapQDkTGkSOZiXbRq+7G2F8U53+6BBSKRuVAU=
+			iO8sFk9Qc4EUCOUfDCQjKvhsychl7pvdHKZmVuQ4jP4=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWYiQqCapQDkTGkSOZiXbRq+7G2F8U53+6BBSKRuVAU=
+			iO8sFk9Qc4EUCOUfDCQjKvhsychl7pvdHKZmVuQ4jP4=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSLVYyVChMW5tnjYiKt7S3kKxdAUr66o6Ha9LE/hkNI=
+			GLErGeFdJ2x/Fe6sscOaCAoWcyHUBTny0v/08dM0pdY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
