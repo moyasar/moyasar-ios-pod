@@ -107,6 +107,7 @@ final public class ApplePayService {
   @objc deinit
 }
 public struct ApiApplePaySource : Swift.Codable {
+  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -145,10 +146,12 @@ public class CreditCardViewModel : Foundation.ObservableObject {
 }
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
+  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ApiPaymentRequest : Swift.Codable {
+  public init(amount: Swift.Int, currency: Swift.String, description: Swift.String, callbackUrl: Swift.String? = nil, source: MoyasarSdk.ApiPaymentSource, metadata: [Swift.String : Swift.String]? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
