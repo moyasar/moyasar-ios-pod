@@ -5356,6 +5356,124 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(type:token:company:name:number:message:manual:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiApplePaySource",
+                "printedName": "MoyasarSdk.ApiApplePaySource",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV4type5token7company4name6number7message6manualACSS_SSSgA5Ktcfc",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4type5token7company4name6number7message6manualACSS_SSSgA5Ktcfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -7125,6 +7243,166 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(type:name:number:month:year:cvc:transactionUrl:message:token:manual:saveCard:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiCreditCardSource",
+                "printedName": "MoyasarSdk.ApiCreditCardSource",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV4type4name6number5month4year3cvc14transactionUrl7message5token6manual04saveE0ACSS_S3SSgA7Otcfc",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV4type4name6number5month4year3cvc14transactionUrl7message5token6manual04saveE0ACSS_S3SSgA7Otcfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -7261,6 +7539,95 @@
         "name": "ApiPaymentRequest",
         "printedName": "ApiPaymentRequest",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(amount:currency:description:callbackUrl:source:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiPaymentRequest",
+                "printedName": "MoyasarSdk.ApiPaymentRequest",
+                "usr": "s:10MoyasarSdk17ApiPaymentRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApiPaymentSource",
+                "printedName": "MoyasarSdk.ApiPaymentSource",
+                "usr": "s:10MoyasarSdk16ApiPaymentSourceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk17ApiPaymentRequestV6amount8currency11description11callbackUrl6source8metadataACSi_S3SSgAA0cD6SourceOSDyS2SGSgtcfc",
+            "mangledName": "$s10MoyasarSdk17ApiPaymentRequestV6amount8currency11description11callbackUrl6source8metadataACSi_S3SSgAA0cD6SourceOSDyS2SGSgtcfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -7980,2135 +8347,2149 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 116,
       "length": 24,
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 24,
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
       "kind": "Array",
       "offset": 263,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 286,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/NSRegularExpressionExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 19,
       "value": "\"^[a-zA-Z\\-\\s]+$\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "Array",
       "offset": 148,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 18,
       "value": "\"name-is-required\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 21,
       "value": "\"both-names-required\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 411,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 20,
       "value": "\"only-english-alpha\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 536,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "Array",
       "offset": 549,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 572,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 588,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 595,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiPayment.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiPayment.swift",
       "kind": "StringLiteral",
       "offset": 855,
       "length": 11,
       "value": "\"initiated\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "BooleanLiteral",
       "offset": 422,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "IntegerLiteral",
       "offset": 630,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 19,
       "value": "\"Value is required\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 1012,
       "length": 14,
       "value": "\"Name on Card\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 512,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 13,
       "value": "\"v1\/payments\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 690,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 11,
       "value": "\"v1\/tokens\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 12,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1125,
       "length": 16,
       "value": "\"Basic \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1140,
       "length": 24,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1205,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1245,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1286,
       "length": 17,
       "value": "\"moyasar-ios-sdk\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1325,
       "length": 15,
       "value": "\"X-MOYASAR-LIB\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1371,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1763,
       "length": 23,
       "value": "\"Invalid response type\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 1984,
       "length": 27,
       "value": "\"No data returned from API\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
       "offset": 2129,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
       "offset": 2135,
       "length": 3,
       "value": "299"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3116,
       "length": 12,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3126,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3205,
       "length": 16,
       "value": "\"Basic \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3220,
       "length": 24,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3243,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3285,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3325,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3366,
       "length": 17,
       "value": "\"moyasar-ios-sdk\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3405,
       "length": 15,
       "value": "\"X-MOYASAR-LIB\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3451,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 3843,
       "length": 23,
       "value": "\"Invalid response type\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 4064,
       "length": 27,
       "value": "\"No data returned from API\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
       "offset": 4209,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "IntegerLiteral",
       "offset": 4215,
       "length": 3,
       "value": "299"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 294,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 4,
       "value": "1900"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "BooleanLiteral",
       "offset": 416,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "StringLiteral",
       "offset": 1064,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "StringLiteral",
       "offset": 1117,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "StringLiteral",
       "offset": 1128,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1254,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1261,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1320,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1331,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1338,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1427,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1438,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1445,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1522,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1612,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1623,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1630,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1687,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1698,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryDate.swift",
       "kind": "IntegerLiteral",
       "offset": 1705,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 22,
       "value": "\"card-number-required\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 21,
       "value": "\"invalid-card-number\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 403,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 21,
       "value": "\"unsupported-network\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 115,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Dictionary",
       "offset": 188,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 216,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 248,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/StcPayView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/StcPayView.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 15,
       "value": "\"Hello, World!\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/ApplePayService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/ApplePayService.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/ApplePayService.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/ApplePayService.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 100,
+      "offset": 117,
       "length": 10,
       "value": "\"applepay\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2304,
+      "offset": 552,
+      "length": 10,
+      "value": "\"applepay\""
+    },
+    {
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "kind": "StringLiteral",
+      "offset": 2756,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2806,
       "length": 7,
       "value": "\"debit\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2855,
       "length": 8,
       "value": "\"credit\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2454,
+      "offset": 2906,
       "length": 9,
       "value": "\"prepaid\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2504,
+      "offset": 2956,
       "length": 7,
       "value": "\"store\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2557,
+      "offset": 3009,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2725,
+      "offset": 3177,
       "length": 11,
       "value": "\"activated\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2790,
+      "offset": 3242,
       "length": 20,
       "value": "\"requiresActivation\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2856,
+      "offset": 3308,
       "length": 12,
       "value": "\"activating\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2913,
+      "offset": 3365,
       "length": 11,
       "value": "\"suspended\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3423,
       "length": 13,
       "value": "\"deactivated\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 3030,
+      "offset": 3482,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 102,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 10,
       "value": "\"^3[47]\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 194,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 6,
       "value": "\"^4\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 270,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 77,
       "value": "\"^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 423,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 613,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 647,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 665,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 828,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 873,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 878,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 904,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 936,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 962,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 1032,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 1038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 1152,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 5,
       "value": "\" \/ \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ExpiryFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 436,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "BooleanLiteral",
       "offset": 559,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "BooleanLiteral",
       "offset": 610,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 17,
       "value": "\"sdk.moyasar.com\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 11,
       "value": "\"MoyasarSdk.Coordinator\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "BooleanLiteral",
       "offset": 1735,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1786,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1795,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1846,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1859,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1911,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 1925,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 2450,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 528,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 844,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 1507,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1858,
       "length": 5,
       "value": "\"pay\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1878,
       "length": 12,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1889,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 2883,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 3472,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 3481,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 3538,
       "length": 6,
       "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 3547,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 4086,
       "length": 32,
       "value": "\"https:\/\/sdk.moyasar.com\/return\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "Dictionary",
       "offset": 4239,
       "length": 14,
       "value": "[(\"sdk\", \"ios\")]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 5295,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 5330,
       "length": 32,
       "value": "\"https:\/\/sdk.moyasar.com\/return\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 6155,
       "length": 24,
       "value": "\"Current payment is nil\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 6632,
       "length": 43,
       "value": "\"Initiated payment has invalid source type\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 146,
       "length": 5,
       "value": "0.137"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 160,
       "length": 5,
       "value": "0.359"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 173,
       "length": 5,
       "value": "0.882"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
       "offset": 1395,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
       "offset": 1428,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 1605,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
       "offset": 1659,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "BooleanLiteral",
       "offset": 1903,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "BooleanLiteral",
       "offset": 1945,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "BooleanLiteral",
       "offset": 2064,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "BooleanLiteral",
       "offset": 2094,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
       "offset": 2383,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2406,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2572,
       "length": 14,
       "value": "\"Got a Result\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2679,
       "length": 14,
       "value": "\"Got a Result\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
       "kind": "StringLiteral",
-      "offset": 188,
+      "offset": 205,
       "length": 12,
       "value": "\"creditcard\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 12,
+      "value": "\"creditcard\""
+    },
+    {
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
       "kind": "Dictionary",
       "offset": 60,
       "length": 1284,
       "value": "[(\"ADP\", 0), (\"AFN\", 0), (\"ALL\", 0), (\"AMD\", 0), (\"BHD\", 3), (\"BIF\", 0), (\"BYN\", 2), (\"BYR\", 0), (\"CAD\", 2), (\"CHF\", 2), (\"CLF\", 4), (\"CLP\", 0), (\"COP\", 0), (\"CRC\", 0), (\"CZK\", 0), (\"DJF\", 0), (\"DKK\", 2), (\"ESP\", 0), (\"GNF\", 0), (\"GYD\", 0), (\"HUF\", 0), (\"IDR\", 0), (\"IQD\", 0), (\"IRR\", 0), (\"ISK\", 0), (\"ITL\", 0), (\"JOD\", 3), (\"JPY\", 0), (\"KMF\", 0), (\"KPW\", 0), (\"KRW\", 0), (\"KWD\", 3), (\"LAK\", 0), (\"LBP\", 0), (\"LUF\", 0), (\"LYD\", 3), (\"MGA\", 0), (\"MGF\", 0), (\"MMK\", 0), (\"MNT\", 0), (\"MRO\", 0), (\"MUR\", 0), (\"NOK\", 0), (\"OMR\", 3), (\"PKR\", 0), (\"PYG\", 0), (\"RSD\", 0), (\"RWF\", 0), (\"SEK\", 0), (\"SLL\", 0), (\"SOS\", 0), (\"STD\", 0), (\"SYP\", 0), (\"TMM\", 0), (\"TND\", 3), (\"TRL\", 0), (\"TWD\", 0), (\"TZS\", 0), (\"UGX\", 0), (\"UYI\", 0), (\"UYW\", 4), (\"UZS\", 0), (\"VEF\", 0), (\"VND\", 0), (\"VUV\", 0), (\"XAF\", 0), (\"XOF\", 0), (\"XPF\", 0), (\"YER\", 0), (\"ZMK\", 0), (\"ZWD\", 0)]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
       "kind": "IntegerLiteral",
       "offset": 1456,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
       "kind": "FloatLiteral",
       "offset": 1567,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
       "kind": "FloatLiteral",
       "offset": 1717,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 14,
       "value": "\"name-on-card\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 375,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 406,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 487,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 533,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 545,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 556,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 570,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 587,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 740,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 884,
       "length": 13,
       "value": "\"card-number\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 1025,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 1106,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 1195,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 1245,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 1257,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 1268,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 1282,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 1299,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 1435,
       "length": 6,
       "value": "\"mada\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 1658,
       "length": 6,
       "value": "\"visa\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 1887,
       "length": 12,
       "value": "\"mastercard\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 2116,
       "length": 6,
       "value": "\"amex\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 2304,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 2344,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 2446,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 2489,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 2587,
       "length": 8,
       "value": "\"expiry\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 2719,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 2792,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 2873,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 2919,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 2931,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 2942,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 2956,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 2973,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 3085,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3128,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 3225,
       "length": 5,
       "value": "\"cvc\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "BooleanLiteral",
       "offset": 3356,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3429,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3510,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 3556,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 3568,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 3579,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 3593,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "FloatLiteral",
       "offset": 3610,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 3730,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3773,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 3984,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4007,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4035,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4227,
       "length": 13,
       "value": "\"Got payment\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4260,
       "length": 34,
       "value": "\"Payment status \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4293,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4314,
       "length": 27,
       "value": "\"Payment ID: \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4340,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4420,
       "length": 11,
       "value": "\"Got token\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4451,
       "length": 30,
       "value": "\"Token status \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4480,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4501,
       "length": 23,
       "value": "\"Token ID: \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4523,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4596,
       "length": 45,
       "value": "\"Got an error: \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4640,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4704,
       "length": 20,
       "value": "\"Operation canceled\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "StringLiteral",
       "offset": 225,
       "length": 20,
       "value": "\"expiry-is-required\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 16,
       "value": "\"invalid-expiry\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 418,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "StringLiteral",
       "offset": 458,
       "length": 14,
       "value": "\"expired-card\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/ExpiryValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 551,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
       "kind": "Array",
       "offset": 194,
       "length": 1770,
       "value": "[\"440647\", \"440795\", \"446404\", \"457865\", \"493428\", \"417633\", \"468540\", \"468541\", \"468542\", \"468543\", \"446393\", \"400861\", \"409201\", \"458456\", \"484783\", \"462220\", \"455708\", \"455036\", \"486094\", \"486095\", \"486096\", \"440533\", \"489317\", \"489318\", \"489319\", \"445564\", \"401757\", \"410685\", \"432328\", \"428671\", \"428672\", \"428673\", \"446672\", \"434107\", \"431361\", \"422817\", \"422818\", \"422819\", \"428331\", \"483010\", \"483011\", \"483012\", \"419593\", \"439956\", \"439954\", \"407197\", \"407395\", \"588845\", \"968208\", \"588846\", \"539931\", \"558848\", \"557606\", \"968210\", \"636120\", \"968201\", \"588847\", \"968205\", \"588848\", \"968203\", \"504300\", \"968211\", \"968206\", \"543357\", \"604906\", \"521076\", \"588850\", \"968202\", \"529415\", \"535825\", \"543085\", \"524130\", \"554180\", \"549760\", \"588849\", \"968209\", \"524514\", \"529741\", \"537767\", \"535989\", \"536023\", \"513213\", \"585265\", \"588983\", \"588982\", \"589005\", \"508160\", \"531095\", \"530906\", \"532013\", \"588851\", \"605141\", \"968204\", \"589206\", \"968207\", \"520058\", \"530060\", \"531196\"]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 2115,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 2160,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "BooleanLiteral",
       "offset": 629,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 4,
       "value": "\"34\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "Array",
       "offset": 995,
       "length": 7,
       "value": "[4, 10]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 1009,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "Array",
       "offset": 1164,
       "length": 10,
       "value": "[4, 8, 12]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "IntegerLiteral",
       "offset": 1181,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
       "kind": "StringLiteral",
       "offset": 1552,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 25,
       "value": "\"https:\/\/api.moyasar.com\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 26,
       "value": "\"^pk_(test|live)_.{40}$\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Moyasar.swift",
       "kind": "Array",
       "offset": 265,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 217,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "Dictionary",
       "offset": 292,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 981,
       "length": 16,
       "value": "\"Argument Error\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 1005,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 1232,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 1263,
       "length": 32,
       "value": "\"https:\/\/sdk.moyasar.com\/return\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 14,
       "value": "\"cvc-required\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 13,
       "value": "\"invalid-cvc\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 410,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 460,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 21,
       "value": "\"MoyasarSdk.SecurityCodeValidator\""
     },
     {
-      "filePath": "\/Users\/ali\/develop\/moyasar\/libs\/MoyasarSdk\/Sdk\/MoyasarSdk\/Helpers\/ArabicNumberMapper.swift",
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ArabicNumberMapper.swift",
       "kind": "Dictionary",
       "offset": 80,
       "length": 196,
       "value": "[(\"٠\", \"0\"), (\"١\", \"1\"), (\"٢\", \"2\"), (\"٣\", \"3\"), (\"٤\", \"4\"), (\"٥\", \"5\"), (\"٦\", \"6\"), (\"٧\", \"7\"), (\"٨\", \"8\"), (\"٩\", \"9\")]"
     },
     {
-      "filePath": "\/Users\/ali\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fczdivcmqkfmezepcbvjaojfkcqw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/abdulaziz\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fozayzoftibyvdbnwvvhnwtyjkmq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 6,
       "value": "\"amex\""
     },
     {
-      "filePath": "\/Users\/ali\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fczdivcmqkfmezepcbvjaojfkcqw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/abdulaziz\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fozayzoftibyvdbnwvvhnwtyjkmq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 845,
       "length": 6,
       "value": "\"mada\""
     },
     {
-      "filePath": "\/Users\/ali\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fczdivcmqkfmezepcbvjaojfkcqw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/abdulaziz\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fozayzoftibyvdbnwvvhnwtyjkmq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 981,
       "length": 12,
       "value": "\"mastercard\""
     },
     {
-      "filePath": "\/Users\/ali\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fczdivcmqkfmezepcbvjaojfkcqw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/abdulaziz\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fozayzoftibyvdbnwvvhnwtyjkmq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1111,
       "length": 6,
