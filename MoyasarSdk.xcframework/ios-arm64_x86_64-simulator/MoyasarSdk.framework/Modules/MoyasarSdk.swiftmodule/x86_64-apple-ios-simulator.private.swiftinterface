@@ -100,6 +100,13 @@ public enum MoyasarError : Swift.Error {
 }
 public struct PaymentRequest {
   public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false)
+  public var amount: Swift.Int
+  public var currency: Swift.String
+  public var description: Swift.String
+  public var metadata: [Swift.String : Swift.String]
+  public var manual: Swift.Bool
+  public var saveCard: Swift.Bool
+  public var createSaveOnlyToken: Swift.Bool
 }
 final public class ApplePayService {
   public init()
@@ -147,11 +154,28 @@ public class CreditCardViewModel : Foundation.ObservableObject {
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
   public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil)
+  public var type: Swift.String
+  public var name: Swift.String
+  public var number: Swift.String
+  public var month: Swift.String?
+  public var year: Swift.String?
+  public var cvc: Swift.String?
+  public var transactionUrl: Swift.String?
+  public var message: Swift.String?
+  public var token: Swift.String?
+  public var manual: Swift.String?
+  public var saveCard: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct ApiPaymentRequest : Swift.Codable {
   public init(amount: Swift.Int, currency: Swift.String, description: Swift.String, callbackUrl: Swift.String? = nil, source: MoyasarSdk.ApiPaymentSource, metadata: [Swift.String : Swift.String]? = nil)
+  public var amount: Swift.Int
+  public var currency: Swift.String
+  public var description: Swift.String
+  public var callbackUrl: Swift.String?
+  public var source: MoyasarSdk.ApiPaymentSource
+  public var metadata: [Swift.String : Swift.String]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
