@@ -5066,7 +5066,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(baseUrl:apiKey:)",
+            "printedName": "init(apiKey:baseUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5078,19 +5078,19 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
-                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk14PaymentServiceC7baseUrl6apiKeyACSS_SStcfc",
-            "mangledName": "$s10MoyasarSdk14PaymentServiceC7baseUrl6apiKeyACSS_SStcfc",
+            "usr": "s:10MoyasarSdk14PaymentServiceC6apiKey7baseUrlACSS_SStcfc",
+            "mangledName": "$s10MoyasarSdk14PaymentServiceC6apiKey7baseUrlACSS_SStcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
@@ -5576,8 +5576,8 @@
           },
           {
             "kind": "Var",
-            "name": "notConnectedToInternet",
-            "printedName": "notConnectedToInternet",
+            "name": "webviewNotConnectedToInternet",
+            "printedName": "webviewNotConnectedToInternet",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5620,8 +5620,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10MoyasarSdk0A5ErrorO22notConnectedToInternetyAcA10ApiPaymentVcACmF",
-            "mangledName": "$s10MoyasarSdk0A5ErrorO22notConnectedToInternetyAcA10ApiPaymentVcACmF",
+            "usr": "s:10MoyasarSdk0A5ErrorO29webviewNotConnectedToInternetyAcA10ApiPaymentVcACmF",
+            "mangledName": "$s10MoyasarSdk0A5ErrorO29webviewNotConnectedToInternetyAcA10ApiPaymentVcACmF",
             "moduleName": "MoyasarSdk"
           },
           {
@@ -5737,13 +5737,26 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(amount:currency:description:metadata:manual:saveCard:createSaveOnlyToken:)",
+            "printedName": "init(apiKey:baseUrl:amount:currency:description:metadata:manual:saveCard:createSaveOnlyToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "PaymentRequest",
                 "printedName": "MoyasarSdk.PaymentRequest",
                 "usr": "s:10MoyasarSdk14PaymentRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5808,13 +5821,183 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk14PaymentRequestV6amount8currency11description8metadata6manual8saveCard19createSaveOnlyTokenACSi_S2SSDyS2SGS3btcfc",
-            "mangledName": "$s10MoyasarSdk14PaymentRequestV6amount8currency11description8metadata6manual8saveCard19createSaveOnlyTokenACSi_S2SSDyS2SGS3btcfc",
+            "usr": "s:10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard19createSaveOnlyTokenACSS_SSSiS2SSDyS2SGS3btcfc",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard19createSaveOnlyTokenACSS_SSSiS2SSDyS2SGS3btcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk14PaymentRequestV6apiKeySSvp",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKeySSvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV6apiKeySSvg",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKeySSvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV6apiKeySSvs",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKeySSvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV6apiKeySSvM",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKeySSvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseUrl",
+            "printedName": "baseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk14PaymentRequestV7baseUrlSSvp",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV7baseUrlSSvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV7baseUrlSSvg",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV7baseUrlSSvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV7baseUrlSSvs",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV7baseUrlSSvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV7baseUrlSSvM",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV7baseUrlSSvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -7143,6 +7326,910 @@
         "moduleName": "MoyasarSdk"
       },
       {
+        "kind": "TypeDecl",
+        "name": "PaymentAuthView",
+        "printedName": "PaymentAuthView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvp",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvg",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvs",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvM",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV3url10Foundation3URLVvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callback",
+            "printedName": "callback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.WebViewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebViewResult",
+                    "printedName": "MoyasarSdk.WebViewResult",
+                    "usr": "s:10MoyasarSdk13WebViewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvp",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoyasarSdk.WebViewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewResult",
+                        "printedName": "MoyasarSdk.WebViewResult",
+                        "usr": "s:10MoyasarSdk13WebViewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvg",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoyasarSdk.WebViewResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewResult",
+                        "printedName": "MoyasarSdk.WebViewResult",
+                        "usr": "s:10MoyasarSdk13WebViewResultO"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvs",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvM",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV8callbackyyAA03WebE6ResultOcvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "MoyasarSdk.PaymentAuthView.Coordinator",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<MoyasarSdk.PaymentAuthView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentAuthView",
+                    "printedName": "MoyasarSdk.PaymentAuthView",
+                    "usr": "s:10MoyasarSdk15PaymentAuthViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV10makeUIView7contextSo05WKWebE0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV10makeUIView7contextSo05WKWebE0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<MoyasarSdk.PaymentAuthView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentAuthView",
+                    "printedName": "MoyasarSdk.PaymentAuthView",
+                    "usr": "s:10MoyasarSdk15PaymentAuthViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV12updateUIView_7contextySo05WKWebE0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV12updateUIView_7contextySo05WKWebE0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationAction",
+                    "printedName": "WebKit.WKNavigationAction",
+                    "usr": "c:objc(cs)WKNavigationAction"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigationActionPolicy",
+                        "printedName": "WebKit.WKNavigationActionPolicy",
+                        "usr": "c:@E@WKNavigationActionPolicy"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV11CoordinatorC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+                "moduleName": "MoyasarSdk",
+                "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:didFail:withError:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKNavigation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigation",
+                        "printedName": "WebKit.WKNavigation",
+                        "usr": "c:objc(cs)WKNavigation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC03webE0_7didFail9withErrorySo05WKWebE0C_So12WKNavigationCSgs0K0_ptF",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV11CoordinatorC03webE0_7didFail9withErrorySo05WKWebE0C_So12WKNavigationCSgs0K0_ptF",
+                "moduleName": "MoyasarSdk",
+                "objc_name": "webView:didFailNavigation:withError:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKNavigation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigation",
+                        "printedName": "WebKit.WKNavigation",
+                        "usr": "c:objc(cs)WKNavigation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC03webE0_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0M0_ptF",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV11CoordinatorC03webE0_28didFailProvisionalNavigation9withErrorySo05WKWebE0C_So12WKNavigationCSgs0M0_ptF",
+                "moduleName": "MoyasarSdk",
+                "objc_name": "webView:didFailProvisionalNavigation:withError:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "MoyasarSdk.PaymentAuthView.Coordinator",
+                    "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorCAEycfc",
+                "mangledName": "$s10MoyasarSdk15PaymentAuthViewV11CoordinatorCAEycfc",
+                "moduleName": "MoyasarSdk",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV11CoordinatorC",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10MoyasarSdk15PaymentAuthViewV",
+        "mangledName": "$s10MoyasarSdk15PaymentAuthViewV",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "MoyasarSdk.PaymentAuthView.Coordinator",
+                    "usr": "s:10MoyasarSdk15PaymentAuthViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewPaymentInfo",
+        "printedName": "WebViewPaymentInfo",
+        "declKind": "Struct",
+        "usr": "s:10MoyasarSdk18WebViewPaymentInfoV",
+        "mangledName": "$s10MoyasarSdk18WebViewPaymentInfoV",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewResult",
+        "printedName": "WebViewResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.WebViewResult.Type) -> (MoyasarSdk.WebViewPaymentInfo) -> MoyasarSdk.WebViewResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoyasarSdk.WebViewPaymentInfo) -> MoyasarSdk.WebViewResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewResult",
+                        "printedName": "MoyasarSdk.WebViewResult",
+                        "usr": "s:10MoyasarSdk13WebViewResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewPaymentInfo",
+                        "printedName": "MoyasarSdk.WebViewPaymentInfo",
+                        "usr": "s:10MoyasarSdk18WebViewPaymentInfoV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.WebViewResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewResult",
+                        "printedName": "MoyasarSdk.WebViewResult",
+                        "usr": "s:10MoyasarSdk13WebViewResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk13WebViewResultO9completedyAcA0cD11PaymentInfoVcACmF",
+            "mangledName": "$s10MoyasarSdk13WebViewResultO9completedyAcA0cD11PaymentInfoVcACmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.WebViewResult.Type) -> (MoyasarSdk.PaymentAuthError) -> MoyasarSdk.WebViewResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoyasarSdk.PaymentAuthError) -> MoyasarSdk.WebViewResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewResult",
+                        "printedName": "MoyasarSdk.WebViewResult",
+                        "usr": "s:10MoyasarSdk13WebViewResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAuthError",
+                        "printedName": "MoyasarSdk.PaymentAuthError",
+                        "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.WebViewResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewResult",
+                        "printedName": "MoyasarSdk.WebViewResult",
+                        "usr": "s:10MoyasarSdk13WebViewResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk13WebViewResultO6failedyAcA16PaymentAuthErrorOcACmF",
+            "mangledName": "$s10MoyasarSdk13WebViewResultO6failedyAcA16PaymentAuthErrorOcACmF",
+            "moduleName": "MoyasarSdk"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MoyasarSdk13WebViewResultO",
+        "mangledName": "$s10MoyasarSdk13WebViewResultO",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentAuthError",
+        "printedName": "PaymentAuthError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeOut",
+            "printedName": "timeOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.PaymentAuthError.Type) -> MoyasarSdk.PaymentAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentAuthError",
+                    "printedName": "MoyasarSdk.PaymentAuthError",
+                    "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.PaymentAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAuthError",
+                        "printedName": "MoyasarSdk.PaymentAuthError",
+                        "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk16PaymentAuthErrorO7timeOutyA2CmF",
+            "mangledName": "$s10MoyasarSdk16PaymentAuthErrorO7timeOutyA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "notConnectedToInternet",
+            "printedName": "notConnectedToInternet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.PaymentAuthError.Type) -> MoyasarSdk.PaymentAuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentAuthError",
+                    "printedName": "MoyasarSdk.PaymentAuthError",
+                    "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.PaymentAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAuthError",
+                        "printedName": "MoyasarSdk.PaymentAuthError",
+                        "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk16PaymentAuthErrorO22notConnectedToInternetyA2CmF",
+            "mangledName": "$s10MoyasarSdk16PaymentAuthErrorO22notConnectedToInternetyA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unexpectedError",
+            "printedName": "unexpectedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.PaymentAuthError.Type) -> (Swift.Error) -> MoyasarSdk.PaymentAuthError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> MoyasarSdk.PaymentAuthError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAuthError",
+                        "printedName": "MoyasarSdk.PaymentAuthError",
+                        "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.PaymentAuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentAuthError",
+                        "printedName": "MoyasarSdk.PaymentAuthError",
+                        "usr": "s:10MoyasarSdk16PaymentAuthErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk16PaymentAuthErrorO010unexpectedE0yACs0E0_pcACmF",
+            "mangledName": "$s10MoyasarSdk16PaymentAuthErrorO010unexpectedE0yACs0E0_pcACmF",
+            "moduleName": "MoyasarSdk"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MoyasarSdk16PaymentAuthErrorO",
+        "mangledName": "$s10MoyasarSdk16PaymentAuthErrorO",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -7379,19 +8466,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiKey:paymentRequest:resultCallback:)",
+            "printedName": "init(paymentRequest:resultCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "CreditCardViewModel",
                 "printedName": "MoyasarSdk.CreditCardViewModel",
                 "usr": "s:10MoyasarSdk19CreditCardViewModelC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -7419,8 +8500,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk19CreditCardViewModelC6apiKey14paymentRequest14resultCallbackACSS_AA07PaymentJ0VyAA0M6ResultOctcfc",
-            "mangledName": "$s10MoyasarSdk19CreditCardViewModelC6apiKey14paymentRequest14resultCallbackACSS_AA07PaymentJ0VyAA0M6ResultOctcfc",
+            "usr": "s:10MoyasarSdk19CreditCardViewModelC14paymentRequest14resultCallbackAcA07PaymentH0V_yAA0K6ResultOctcfc",
+            "mangledName": "$s10MoyasarSdk19CreditCardViewModelC14paymentRequest14resultCallbackAcA07PaymentH0V_yAA0K6ResultOctcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
@@ -7475,19 +8556,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiKey:request:callback:)",
+            "printedName": "init(request:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "CreditCardView",
                 "printedName": "MoyasarSdk.CreditCardView",
                 "usr": "s:10MoyasarSdk14CreditCardViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -7515,8 +8590,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk14CreditCardViewV6apiKey7request8callbackACSS_AA14PaymentRequestVyAA0J6ResultOctcfc",
-            "mangledName": "$s10MoyasarSdk14CreditCardViewV6apiKey7request8callbackACSS_AA14PaymentRequestVyAA0J6ResultOctcfc",
+            "usr": "s:10MoyasarSdk14CreditCardViewV7request8callbackAcA14PaymentRequestV_yAA0H6ResultOctcfc",
+            "mangledName": "$s10MoyasarSdk14CreditCardViewV7request8callbackAcA14PaymentRequestV_yAA0H6ResultOctcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "Custom",
@@ -11244,42 +12319,49 @@
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
-      "offset": 858,
+      "offset": 874,
       "length": 25,
       "value": "\"https:\/\/api.moyasar.com\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 115,
+      "offset": 117,
+      "length": 25,
+      "value": "\"https:\/\/api.moyasar.com\""
+    },
+    {
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Dictionary",
-      "offset": 188,
+      "offset": 265,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 216,
+      "offset": 293,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 248,
+      "offset": 325,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 291,
+      "offset": 368,
       "length": 5,
       "value": "false"
     },
@@ -11349,7 +12431,7 @@
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 839,
       "length": 11,
       "value": "\"MoyasarSdk.Coordinator\""
     },
@@ -11418,22 +12500,29 @@
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 2383,
+      "length": 50,
+      "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
+    },
+    {
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2427,
+      "offset": 2451,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
-      "offset": 2450,
+      "offset": 2474,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2502,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
@@ -11460,120 +12549,120 @@
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
-      "kind": "IntegerLiteral",
+      "kind": "StringLiteral",
       "offset": 3984,
+      "length": 50,
+      "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
+    },
+    {
+      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4052,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4007,
+      "offset": 4075,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4035,
+      "offset": 4103,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
-      "length": 50,
-      "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
-    },
-    {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
-      "kind": "StringLiteral",
-      "offset": 4287,
+      "offset": 4295,
       "length": 13,
       "value": "\"Got payment\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4320,
+      "offset": 4328,
       "length": 34,
       "value": "\"Payment status \""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 4361,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4374,
+      "offset": 4382,
       "length": 27,
       "value": "\"Payment ID: \""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4400,
+      "offset": 4408,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4480,
+      "offset": 4488,
       "length": 11,
       "value": "\"Got token\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4519,
       "length": 30,
       "value": "\"Token status \""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4540,
+      "offset": 4548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4561,
+      "offset": 4569,
       "length": 23,
       "value": "\"Token ID: \""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 4591,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4656,
+      "offset": 4664,
       "length": 45,
       "value": "\"Got an error: \""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4700,
+      "offset": 4708,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 4764,
+      "offset": 4772,
       "length": 20,
       "value": "\"Operation canceled\""
     },

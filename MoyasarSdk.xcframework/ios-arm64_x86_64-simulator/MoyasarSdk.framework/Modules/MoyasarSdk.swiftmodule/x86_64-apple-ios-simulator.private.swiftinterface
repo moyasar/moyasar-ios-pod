@@ -97,7 +97,7 @@ extension MoyasarSdk.ApiErrorDetail : Swift.Codable {
 }
 public typealias ApiMutliError = [Swift.String : [Swift.String]?]?
 final public class PaymentService {
-  public init(baseUrl: Swift.String = "https://api.moyasar.com", apiKey: Swift.String)
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com")
   final public func create(_ paymentRequest: MoyasarSdk.ApiPaymentRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiPayment>) throws
   final public func createToken(_ tokenRequest: MoyasarSdk.ApiTokenRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiToken>) throws
   @objc deinit
@@ -110,11 +110,13 @@ public enum MoyasarError : Swift.Error {
   case apiError(MoyasarSdk.ApiError)
   case unexpectedError(Swift.String)
   case webviewTimedOut(MoyasarSdk.ApiPayment)
-  case notConnectedToInternet(MoyasarSdk.ApiPayment)
+  case webviewNotConnectedToInternet(MoyasarSdk.ApiPayment)
   case webviewUnexpectedError(MoyasarSdk.ApiPayment, Swift.Error)
 }
 public struct PaymentRequest {
-  public init(amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false)
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false)
+  public var apiKey: Swift.String
+  public var baseUrl: Swift.String
   public var amount: Swift.Int
   public var currency: Swift.String
   public var description: Swift.String
@@ -148,6 +150,33 @@ public struct ApplePayPaymentPass : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct PaymentAuthView : SwiftUI.UIViewRepresentable {
+  public var url: Foundation.URL
+  public var callback: MoyasarSdk.WebViewResultCallback
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> MoyasarSdk.PaymentAuthView.Coordinator
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: MoyasarSdk.PaymentAuthView.Context) -> WebKit.WKWebView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ wkWebView: WebKit.WKWebView, context: MoyasarSdk.PaymentAuthView.Context)
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+    @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+    @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+    @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = WebKit.WKWebView
+}
+public typealias WebViewResultCallback = (MoyasarSdk.WebViewResult) -> ()
+public struct WebViewPaymentInfo {
+}
+public enum WebViewResult {
+  case completed(MoyasarSdk.WebViewPaymentInfo)
+  case failed(MoyasarSdk.PaymentAuthError)
+}
+public enum PaymentAuthError : Swift.Error {
+  case timeOut
+  case notConnectedToInternet
+  case unexpectedError(Swift.Error)
+}
 public enum PaymentResult {
   case completed(MoyasarSdk.ApiPayment)
   case saveOnlyToken(MoyasarSdk.ApiToken)
@@ -155,12 +184,12 @@ public enum PaymentResult {
   case canceled
 }
 public class CreditCardViewModel : Foundation.ObservableObject {
-  public init(apiKey: Swift.String, paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback)
+  public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
 @_Concurrency.MainActor(unsafe) public struct CreditCardView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(apiKey: Swift.String, request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
+  @_Concurrency.MainActor(unsafe) public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
