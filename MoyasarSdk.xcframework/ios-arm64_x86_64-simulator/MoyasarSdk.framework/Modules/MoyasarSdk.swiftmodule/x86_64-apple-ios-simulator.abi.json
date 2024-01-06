@@ -6803,7 +6803,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:token:company:name:number:message:manual:)",
+            "printedName": "init(type:token:company:name:number:message:manual:gatewayId:referenceNumber:responseCode:authorizationCode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6907,16 +6907,1262 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk17ApiApplePaySourceV4type5token7company4name6number7message6manualACSS_SSSgA5Ktcfc",
-            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4type5token7company4name6number7message6manualACSS_SSSgA5Ktcfc",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV4type5token7company4name6number7message6manual9gatewayId15referenceNumber12responseCode013authorizationS0ACSS_SSSgA9Otcfc",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4type5token7company4name6number7message6manual9gatewayId15referenceNumber12responseCode013authorizationS0ACSS_SSSgA9Otcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV4typeSSvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4typeSSvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV4typeSSvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4typeSSvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV4typeSSvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4typeSSvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV4typeSSvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4typeSSvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV5tokenSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "company",
+            "printedName": "company",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV7companySSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7companySSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV7companySSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7companySSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV7companySSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7companySSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV7companySSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7companySSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV4nameSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4nameSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV4nameSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4nameSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV4nameSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4nameSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV4nameSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV4nameSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV6numberSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6numberSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV6numberSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6numberSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV6numberSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6numberSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV6numberSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6numberSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV7messageSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7messageSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV7messageSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7messageSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV7messageSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7messageSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV7messageSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV7messageSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manual",
+            "printedName": "manual",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV6manualSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6manualSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV6manualSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6manualSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV6manualSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6manualSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV6manualSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV6manualSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gatewayId",
+            "printedName": "gatewayId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV9gatewayIdSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceNumber",
+            "printedName": "referenceNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV15referenceNumberSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseCode",
+            "printedName": "responseCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV12responseCodeSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationCode",
+            "printedName": "authorizationCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV17authorizationCodeSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Constructor",
@@ -8724,7 +9970,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:name:number:month:year:cvc:transactionUrl:message:token:manual:saveCard:)",
+            "printedName": "init(type:name:number:month:year:cvc:transactionUrl:message:token:manual:saveCard:company:gatewayId:referenceNumber:responseCode:authorizationCode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8870,11 +10116,86 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV4type4name6number5month4year3cvc14transactionUrl7message5token6manual04saveE0ACSS_S3SSgA7Otcfc",
-            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV4type4name6number5month4year3cvc14transactionUrl7message5token6manual04saveE0ACSS_S3SSgA7Otcfc",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV4type4name6number5month4year3cvc14transactionUrl7message5token6manual04saveE07company9gatewayId15referenceNumber12responseCode013authorizationY0ACSS_S3SSgA12Ttcfc",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV4type4name6number5month4year3cvc14transactionUrl7message5token6manual04saveE07company9gatewayId15referenceNumber12responseCode013authorizationY0ACSS_S3SSgA12Ttcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
@@ -10011,6 +11332,556 @@
                 "declKind": "Accessor",
                 "usr": "s:10MoyasarSdk19ApiCreditCardSourceV04saveE0SSSgvM",
                 "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV04saveE0SSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "company",
+            "printedName": "company",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV7companySSSgvp",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV7companySSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV7companySSSgvg",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV7companySSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV7companySSSgvs",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV7companySSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV7companySSSgvM",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV7companySSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gatewayId",
+            "printedName": "gatewayId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvp",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvg",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvs",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvM",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV9gatewayIdSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceNumber",
+            "printedName": "referenceNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvp",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvg",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvs",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvM",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV15referenceNumberSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseCode",
+            "printedName": "responseCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvp",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvg",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvs",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvM",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV12responseCodeSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationCode",
+            "printedName": "authorizationCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvp",
+            "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvg",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvs",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvM",
+                "mangledName": "$s10MoyasarSdk19ApiCreditCardSourceV17authorizationCodeSSSgvM",
                 "moduleName": "MoyasarSdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12247,462 +14118,462 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 116,
       "length": 24,
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 24,
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 19,
       "value": "\"^[a-zA-Z\\-\\s]+$\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "Array",
       "offset": 148,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 19,
       "value": "\"Value is required\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 26,
       "value": "\"^pk_(test|live)_.{40}$\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "Array",
       "offset": 807,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 25,
       "value": "\"https:\/\/api.moyasar.com\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 25,
       "value": "\"https:\/\/api.moyasar.com\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Dictionary",
       "offset": 265,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 325,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 10,
       "value": "\"applepay\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 886,
       "length": 10,
       "value": "\"applepay\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 102,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 10,
       "value": "\"^3[47]\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 194,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 6,
       "value": "\"^4\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 270,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 77,
       "value": "\"^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 423,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 839,
       "length": 11,
       "value": "\"MoyasarSdk.Coordinator\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 525,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 877,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 1504,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1336,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 146,
       "length": 5,
       "value": "0.137"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 160,
       "length": 5,
       "value": "0.359"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 173,
       "length": 5,
       "value": "0.882"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2383,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
       "offset": 2451,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2474,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2502,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 12,
       "value": "\"creditcard\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 1274,
       "length": 12,
       "value": "\"creditcard\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
       "kind": "Dictionary",
       "offset": 60,
       "length": 1284,
       "value": "[(\"ADP\", 0), (\"AFN\", 0), (\"ALL\", 0), (\"AMD\", 0), (\"BHD\", 3), (\"BIF\", 0), (\"BYN\", 2), (\"BYR\", 0), (\"CAD\", 2), (\"CHF\", 2), (\"CLF\", 4), (\"CLP\", 0), (\"COP\", 0), (\"CRC\", 0), (\"CZK\", 0), (\"DJF\", 0), (\"DKK\", 2), (\"ESP\", 0), (\"GNF\", 0), (\"GYD\", 0), (\"HUF\", 0), (\"IDR\", 0), (\"IQD\", 0), (\"IRR\", 0), (\"ISK\", 0), (\"ITL\", 0), (\"JOD\", 3), (\"JPY\", 0), (\"KMF\", 0), (\"KPW\", 0), (\"KRW\", 0), (\"KWD\", 3), (\"LAK\", 0), (\"LBP\", 0), (\"LUF\", 0), (\"LYD\", 3), (\"MGA\", 0), (\"MGF\", 0), (\"MMK\", 0), (\"MNT\", 0), (\"MRO\", 0), (\"MUR\", 0), (\"NOK\", 0), (\"OMR\", 3), (\"PKR\", 0), (\"PYG\", 0), (\"RSD\", 0), (\"RWF\", 0), (\"SEK\", 0), (\"SLL\", 0), (\"SOS\", 0), (\"STD\", 0), (\"SYP\", 0), (\"TMM\", 0), (\"TND\", 3), (\"TRL\", 0), (\"TWD\", 0), (\"TZS\", 0), (\"UGX\", 0), (\"UYI\", 0), (\"UYW\", 4), (\"UZS\", 0), (\"VEF\", 0), (\"VND\", 0), (\"VUV\", 0), (\"XAF\", 0), (\"XOF\", 0), (\"XPF\", 0), (\"YER\", 0), (\"ZMK\", 0), (\"ZWD\", 0)]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 3984,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 4052,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4075,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4103,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4295,
       "length": 13,
       "value": "\"Got payment\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4328,
       "length": 34,
       "value": "\"Payment status \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4361,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4382,
       "length": 27,
       "value": "\"Payment ID: \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4408,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4488,
       "length": 11,
       "value": "\"Got token\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4519,
       "length": 30,
       "value": "\"Token status \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4548,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4569,
       "length": 23,
       "value": "\"Token ID: \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4591,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4664,
       "length": 45,
       "value": "\"Got an error: \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4708,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4772,
       "length": 20,
       "value": "\"Operation canceled\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
       "kind": "Array",
       "offset": 194,
       "length": 1770,
       "value": "[\"440647\", \"440795\", \"446404\", \"457865\", \"493428\", \"417633\", \"468540\", \"468541\", \"468542\", \"468543\", \"446393\", \"400861\", \"409201\", \"458456\", \"484783\", \"462220\", \"455708\", \"455036\", \"486094\", \"486095\", \"486096\", \"440533\", \"489317\", \"489318\", \"489319\", \"445564\", \"401757\", \"410685\", \"432328\", \"428671\", \"428672\", \"428673\", \"446672\", \"434107\", \"431361\", \"422817\", \"422818\", \"422819\", \"428331\", \"483010\", \"483011\", \"483012\", \"419593\", \"439956\", \"439954\", \"407197\", \"407395\", \"588845\", \"968208\", \"588846\", \"539931\", \"558848\", \"557606\", \"968210\", \"636120\", \"968201\", \"588847\", \"968205\", \"588848\", \"968203\", \"504300\", \"968211\", \"968206\", \"543357\", \"604906\", \"521076\", \"588850\", \"968202\", \"529415\", \"535825\", \"543085\", \"524130\", \"554180\", \"549760\", \"588849\", \"968209\", \"524514\", \"529741\", \"537767\", \"535989\", \"536023\", \"513213\", \"585265\", \"588983\", \"588982\", \"589005\", \"508160\", \"531095\", \"530906\", \"532013\", \"588851\", \"605141\", \"968204\", \"589206\", \"968207\", \"520058\", \"530060\", \"531196\"]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 217,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "Dictionary",
       "offset": 292,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 726,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 21,
       "value": "\"MoyasarSdk.SecurityCodeValidator\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Desktop\/GitHub\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ArabicNumberMapper.swift",
+      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ArabicNumberMapper.swift",
       "kind": "Dictionary",
       "offset": 80,
       "length": 196,
