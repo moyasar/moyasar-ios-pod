@@ -131,7 +131,18 @@ final public class ApplePayService {
   @objc deinit
 }
 public struct ApiApplePaySource : Swift.Codable {
-  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil)
+  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil)
+  public var type: Swift.String
+  public var token: Swift.String?
+  public var company: Swift.String?
+  public var name: Swift.String?
+  public var number: Swift.String?
+  public var message: Swift.String?
+  public var manual: Swift.String?
+  public var gatewayId: Swift.String?
+  public var referenceNumber: Swift.String?
+  public var responseCode: Swift.String?
+  public var authorizationCode: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -197,7 +208,7 @@ public class CreditCardViewModel : Foundation.ObservableObject {
 }
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
-  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil)
+  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil, company: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil)
   public var type: Swift.String
   public var name: Swift.String
   public var number: Swift.String
@@ -209,6 +220,11 @@ public struct ApiCreditCardSource : Swift.Codable {
   public var token: Swift.String?
   public var manual: Swift.String?
   public var saveCard: Swift.String?
+  public var company: Swift.String?
+  public var gatewayId: Swift.String?
+  public var referenceNumber: Swift.String?
+  public var responseCode: Swift.String?
+  public var authorizationCode: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
