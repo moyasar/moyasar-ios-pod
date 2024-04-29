@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ccrCvldj45UHKDmxxryj8+wRZ64=
+		TvN8irZlBvbmz9117RW26i6XoPM=
 		</data>
 		<key>Headers/MoyasarSdk-Swift.h</key>
 		<data>
@@ -64,6 +64,10 @@
 		<data>
 		b1fbTDa/wZuDbMIEp+PfC6ob2xA=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		fQIfxpc6Af5cbfsNMitUs9H5x+A=
+		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -89,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yjcyuBm9nCO7fen646VKxv4T6iE8Mu463sMdrirHccg=
+			Yqn3hcZSlxvwaUZTsZRICy+qA22UqS0h4uXc42SBW2I=
 			</data>
 		</dict>
 		<key>Headers/MoyasarSdk-Swift.h</key>
@@ -181,6 +185,13 @@
 			<key>hash2</key>
 			<data>
 			KjhkRwwQGUQFWA6yNcs+S6fJ2Q13XbpzzetMyiqTr5Y=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZPvdgdv7fOU/uSwuNclk5wvS6y9a5AQ81J4lZ1U9yEc=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>
