@@ -1,5 +1,15 @@
 # Moyasar iOS Pod Releases
 
-You can view the documentation & usage here:
+## Installation
 
-* <https://github.com/moyasar/moyasar-ios-sdk>
+To install and setup the SDK follow [this documentation](https://docs.moyasar.com/ios-sdk).
+
+## APIs Documentation
+
+* <https://moyasar.github.io/moyasar-ios-sdk/documentation/moyasarsdk>
+
+## Migration Guide
+
+### From `0.4` to `1.0`
+
+* <https://docs.moyasar.com/ios-sdk#Lxmx0>
