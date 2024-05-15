@@ -147,7 +147,7 @@ public struct ApiApplePaySource : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 extension MoyasarSdk.ApiApplePaySource {
-  public static func fromPKToken(_ token: PassKit.PKPaymentToken) -> MoyasarSdk.ApiApplePaySource
+  public static func fromPKToken(_ token: PassKit.PKPaymentToken) throws -> MoyasarSdk.ApiApplePaySource
 }
 public struct ApplePayToken : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
