@@ -8234,14 +8234,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10MoyasarSdk17ApiApplePaySourceV11fromPKTokenyACSo14PKPaymentTokenCFZ",
-            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV11fromPKTokenyACSo14PKPaymentTokenCFZ",
+            "usr": "s:10MoyasarSdk17ApiApplePaySourceV11fromPKTokenyACSo14PKPaymentTokenCKFZ",
+            "mangledName": "$s10MoyasarSdk17ApiApplePaySourceV11fromPKTokenyACSo14PKPaymentTokenCKFZ",
             "moduleName": "MoyasarSdk",
             "static": true,
             "declAttributes": [
               "AccessControl"
             ],
             "isFromExtension": true,
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
