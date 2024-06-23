@@ -204,7 +204,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -232,7 +232,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1612,7 +1612,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1637,7 +1637,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3908,7 +3908,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3933,7 +3933,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4756,7 +4756,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4781,7 +4781,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4983,7 +4983,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5011,7 +5011,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5332,12 +5332,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(MoyasarSdk.MoyasarError.Type) -> (Swift.Error) -> MoyasarSdk.MoyasarError",
+                "printedName": "(MoyasarSdk.MoyasarError.Type) -> (any Swift.Error) -> MoyasarSdk.MoyasarError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> MoyasarSdk.MoyasarError",
+                    "printedName": "(any Swift.Error) -> MoyasarSdk.MoyasarError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5348,7 +5348,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -5632,12 +5632,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(MoyasarSdk.MoyasarError.Type) -> (MoyasarSdk.ApiPayment, Swift.Error) -> MoyasarSdk.MoyasarError",
+                "printedName": "(MoyasarSdk.MoyasarError.Type) -> (MoyasarSdk.ApiPayment, any Swift.Error) -> MoyasarSdk.MoyasarError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(MoyasarSdk.ApiPayment, Swift.Error) -> MoyasarSdk.MoyasarError",
+                    "printedName": "(MoyasarSdk.ApiPayment, any Swift.Error) -> MoyasarSdk.MoyasarError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5648,7 +5648,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(MoyasarSdk.ApiPayment, Swift.Error)",
+                        "printedName": "(MoyasarSdk.ApiPayment, any Swift.Error)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -5659,7 +5659,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -5737,7 +5737,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiKey:baseUrl:amount:currency:description:metadata:manual:saveCard:createSaveOnlyToken:)",
+            "printedName": "init(apiKey:baseUrl:amount:currency:description:metadata:manual:saveCard:createSaveOnlyToken:allowedNetworks:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5818,11 +5818,26 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard19createSaveOnlyTokenACSS_SSSiS2SSDyS2SGS3btcfc",
-            "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard19createSaveOnlyTokenACSS_SSSiS2SSDyS2SGS3btcfc",
+            "usr": "s:10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard19createSaveOnlyToken15allowedNetworksACSS_SSSiS2SSDyS2SGS3bSayAA06CreditO7NetworkOGtcfc",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard19createSaveOnlyToken15allowedNetworksACSS_SSSiS2SSDyS2SGS3bSayAA06CreditO7NetworkOGtcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
@@ -6635,6 +6650,115 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowedNetworks",
+            "printedName": "allowedNetworks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvp",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvg",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvs",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvM",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV15allowedNetworksSayAA17CreditCardNetworkOGvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -6779,6 +6903,404 @@
         "moduleName": "MoyasarSdk",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CreditCardNetwork",
+        "printedName": "CreditCardNetwork",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "amex",
+            "printedName": "amex",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.CreditCardNetwork.Type) -> MoyasarSdk.CreditCardNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.CreditCardNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO4amexyA2CmF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO4amexyA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "mada",
+            "printedName": "mada",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.CreditCardNetwork.Type) -> MoyasarSdk.CreditCardNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.CreditCardNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO4madayA2CmF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO4madayA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "visa",
+            "printedName": "visa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.CreditCardNetwork.Type) -> MoyasarSdk.CreditCardNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.CreditCardNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO4visayA2CmF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO4visayA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "mastercard",
+            "printedName": "mastercard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.CreditCardNetwork.Type) -> MoyasarSdk.CreditCardNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.CreditCardNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO10mastercardyA2CmF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO10mastercardyA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.CreditCardNetwork.Type) -> MoyasarSdk.CreditCardNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.CreditCardNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO7unknownyA2CmF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO7unknownyA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO8allCasesSayACGvpZ",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO8allCasesSayACGvpZ",
+            "moduleName": "MoyasarSdk",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17CreditCardNetworkO8allCasesSayACGvgZ",
+                "mangledName": "$s10MoyasarSdk17CreditCardNetworkO8allCasesSayACGvgZ",
+                "moduleName": "MoyasarSdk",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreditCardNetwork",
+                "printedName": "MoyasarSdk.CreditCardNetwork",
+                "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CreditCardNetwork",
+                "printedName": "MoyasarSdk.CreditCardNetwork",
+                "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO2eeoiySbAC_ACtFZ",
+            "moduleName": "MoyasarSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO9hashValueSivp",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO9hashValueSivp",
+            "moduleName": "MoyasarSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17CreditCardNetworkO9hashValueSivg",
+                "mangledName": "$s10MoyasarSdk17CreditCardNetworkO9hashValueSivg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO4hash4intoys6HasherVz_tF",
+            "moduleName": "MoyasarSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MoyasarSdk17CreditCardNetworkO",
+        "mangledName": "$s10MoyasarSdk17CreditCardNetworkO",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.CreditCardNetwork]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
         ]
       },
       {
@@ -8178,7 +8700,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8203,7 +8725,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8289,7 +8811,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8314,7 +8836,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8370,7 +8892,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8395,7 +8917,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8451,7 +8973,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8476,7 +8998,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8973,7 +9495,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -9021,7 +9543,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -9409,12 +9931,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(MoyasarSdk.PaymentAuthError.Type) -> (Swift.Error) -> MoyasarSdk.PaymentAuthError",
+                "printedName": "(MoyasarSdk.PaymentAuthError.Type) -> (any Swift.Error) -> MoyasarSdk.PaymentAuthError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> MoyasarSdk.PaymentAuthError",
+                    "printedName": "(any Swift.Error) -> MoyasarSdk.PaymentAuthError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -9425,7 +9947,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -11903,7 +12425,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11928,7 +12450,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12733,7 +13255,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12758,7 +13280,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12974,7 +13496,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12999,7 +13521,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14035,7 +14557,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14060,7 +14582,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14113,472 +14635,535 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MoyasarSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 116,
       "length": 24,
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/StringExtensions.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 24,
       "value": "\"com.moyasar.MoyasarSdk\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "StringLiteral",
       "offset": 118,
       "length": 19,
       "value": "\"^[a-zA-Z\\-\\s]+$\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/NameOnCardValidator.swift",
       "kind": "Array",
       "offset": 148,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 19,
       "value": "\"Value is required\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 26,
       "value": "\"^pk_(test|live)_.{40}$\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "Array",
       "offset": 807,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/PaymentService.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 25,
       "value": "\"https:\/\/api.moyasar.com\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/CardNumberValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 19,
+      "value": "\"MoyasarSdk.CardNumberValidator\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 25,
       "value": "\"https:\/\/api.moyasar.com\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Dictionary",
       "offset": 265,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 325,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 368,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 10,
       "value": "\"applepay\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiApplePaySource.swift",
       "kind": "StringLiteral",
       "offset": 886,
       "length": 10,
       "value": "\"applepay\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/FieldValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 102,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 10,
       "value": "\"^3[47]\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 194,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 6,
       "value": "\"^4\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 270,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 77,
       "value": "\"^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 423,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/PaymentAuthView.swift",
       "kind": "StringLiteral",
       "offset": 839,
       "length": 11,
       "value": "\"MoyasarSdk.Coordinator\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 525,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 877,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 1504,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/CreditCardViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1336,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 146,
       "length": 5,
       "value": "0.137"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 160,
       "length": 5,
       "value": "0.359"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "FloatLiteral",
       "offset": 173,
       "length": 5,
       "value": "0.882"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2383,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "IntegerLiteral",
       "offset": 2451,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2474,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView.swift",
       "kind": "StringLiteral",
       "offset": 2502,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 12,
       "value": "\"creditcard\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiCreditCardSource.swift",
       "kind": "StringLiteral",
       "offset": 1274,
       "length": 12,
       "value": "\"creditcard\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CurrencyUtil.swift",
       "kind": "Dictionary",
       "offset": 60,
       "length": 1284,
       "value": "[(\"ADP\", 0), (\"AFN\", 0), (\"ALL\", 0), (\"AMD\", 0), (\"BHD\", 3), (\"BIF\", 0), (\"BYN\", 2), (\"BYR\", 0), (\"CAD\", 2), (\"CHF\", 2), (\"CLF\", 4), (\"CLP\", 0), (\"COP\", 0), (\"CRC\", 0), (\"CZK\", 0), (\"DJF\", 0), (\"DKK\", 2), (\"ESP\", 0), (\"GNF\", 0), (\"GYD\", 0), (\"HUF\", 0), (\"IDR\", 0), (\"IQD\", 0), (\"IRR\", 0), (\"ISK\", 0), (\"ITL\", 0), (\"JOD\", 3), (\"JPY\", 0), (\"KMF\", 0), (\"KPW\", 0), (\"KRW\", 0), (\"KWD\", 3), (\"LAK\", 0), (\"LBP\", 0), (\"LUF\", 0), (\"LYD\", 3), (\"MGA\", 0), (\"MGF\", 0), (\"MMK\", 0), (\"MNT\", 0), (\"MRO\", 0), (\"MUR\", 0), (\"NOK\", 0), (\"OMR\", 3), (\"PKR\", 0), (\"PYG\", 0), (\"RSD\", 0), (\"RWF\", 0), (\"SEK\", 0), (\"SLL\", 0), (\"SOS\", 0), (\"STD\", 0), (\"SYP\", 0), (\"TMM\", 0), (\"TND\", 3), (\"TRL\", 0), (\"TWD\", 0), (\"TZS\", 0), (\"UGX\", 0), (\"UYI\", 0), (\"UYW\", 4), (\"UZS\", 0), (\"VEF\", 0), (\"VND\", 0), (\"VUV\", 0), (\"XAF\", 0), (\"XOF\", 0), (\"XPF\", 0), (\"YER\", 0), (\"ZMK\", 0), (\"ZWD\", 0)]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 3984,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 4052,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4075,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4103,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4295,
       "length": 13,
       "value": "\"Got payment\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4328,
       "length": 34,
       "value": "\"Payment status \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4361,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4382,
       "length": 27,
       "value": "\"Payment ID: \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4408,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4488,
       "length": 11,
       "value": "\"Got token\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4519,
       "length": 30,
       "value": "\"Token status \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4548,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4569,
       "length": 23,
       "value": "\"Token ID: \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4591,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4664,
       "length": 45,
       "value": "\"Got an error: \""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4708,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
       "offset": 4772,
       "length": 20,
       "value": "\"Operation canceled\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/MadaUtil.swift",
       "kind": "Array",
       "offset": 194,
-      "length": 1802,
-      "value": "[\"22337902\", \"22337986\", \"22402030\", \"242030\", \"403024\", \"406136\", \"406996\", \"40719700\", \"40739500\", \"407520\", \"409201\", \"410621\", \"410685\", \"410834\", \"412565\", \"417633\", \"419593\", \"420132\", \"421141\", \"422817\", \"422818\", \"422819\", \"428331\", \"428671\", \"428672\", \"428673\", \"431361\", \"432328\", \"434107\", \"439954\", \"440533\", \"440647\", \"440795\", \"442463\", \"445564\", \"446393\", \"446404\", \"446672\", \"45488707\", \"455036\", \"455708\", \"457865\", \"457997\", \"458456\", \"462220\", \"468540\", \"468541\", \"468542\", \"468543\", \"474491\", \"483010\", \"483011\", \"483012\", \"484783\", \"486094\", \"486095\", \"486096\", \"489318\", \"489319\", \"504300\", \"513213\", \"515079\", \"516138\", \"520058\", \"521076\", \"52166100\", \"524130\", \"524514\", \"529415\", \"529741\", \"530060\", \"531196\", \"535825\", \"535989\", \"536023\", \"537767\", \"543085\", \"543357\", \"549760\", \"554180\", \"555610\", \"558563\", \"588845\", \"588848\", \"588850\", \"589206\", \"604906\", \"605141\", \"636120\", \"968201\", \"968202\", \"968203\", \"968204\", \"968205\", \"968206\", \"968207\", \"968208\", \"968209\", \"968211\"]"
+      "length": 1880,
+      "value": "[\"22337902\", \"22337986\", \"22402030\", \"242030\", \"403024\", \"40545400\", \"406136\", \"406996\", \"40719700\", \"40739500\", \"407520\", \"409201\", \"410621\", \"410685\", \"410834\", \"412565\", \"417633\", \"419593\", \"420132\", \"421141\", \"422817\", \"422818\", \"422819\", \"428331\", \"428671\", \"428672\", \"428673\", \"431361\", \"432328\", \"434107\", \"439954\", \"440533\", \"440647\", \"440795\", \"442463\", \"445564\", \"446393\", \"446404\", \"446672\", \"45488707\", \"455036\", \"455708\", \"457865\", \"457997\", \"458456\", \"462220\", \"468540\", \"468541\", \"468542\", \"468543\", \"474491\", \"483010\", \"483011\", \"483012\", \"484783\", \"486094\", \"486095\", \"486096\", \"489318\", \"489319\", \"49098000\", \"492464\", \"504300\", \"513213\", \"515079\", \"516138\", \"520058\", \"521076\", \"52166100\", \"524130\", \"524514\", \"524940\", \"529415\", \"529741\", \"530060\", \"531196\", \"535825\", \"535989\", \"536023\", \"537767\", \"53973776\", \"543085\", \"543357\", \"549760\", \"554180\", \"555610\", \"558563\", \"588845\", \"588848\", \"588850\", \"589206\", \"604906\", \"636120\", \"968201\", \"968202\", \"968203\", \"968204\", \"968205\", \"968206\", \"968207\", \"968208\", \"968209\", \"968211\"]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 217,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "Dictionary",
       "offset": 292,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiTokenRequest.swift",
       "kind": "BooleanLiteral",
       "offset": 726,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/Validators\/SecurityCodeValidator.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 21,
       "value": "\"MoyasarSdk.SecurityCodeValidator\""
     },
     {
-      "filePath": "\/Users\/abdulaziz\/Development\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ArabicNumberMapper.swift",
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/ArabicNumberMapper.swift",
       "kind": "Dictionary",
       "offset": 80,
       "length": 196,
       "value": "[(\"٠\", \"0\"), (\"١\", \"1\"), (\"٢\", \"2\"), (\"٣\", \"3\"), (\"٤\", \"4\"), (\"٥\", \"5\"), (\"٦\", \"6\"), (\"٧\", \"7\"), (\"٨\", \"8\"), (\"٩\", \"9\")]"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphoneos\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 6,
+      "value": "\"amex\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphoneos\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 845,
+      "length": 6,
+      "value": "\"mada\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphoneos\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 981,
+      "length": 12,
+      "value": "\"mastercard\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphoneos\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 6,
+      "value": "\"visa\""
     }
   ]
 }
