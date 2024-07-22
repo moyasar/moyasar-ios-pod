@@ -40,6 +40,13 @@ public struct ApiToken : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@_Concurrency.MainActor(unsafe) public struct CreditCardView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk14CreditCardViewV4bodyQrvp", 0) __
+}
 public struct ApiPayment : Swift.Codable {
   public var id: Swift.String
   public var status: MoyasarSdk.ApiPaymentStatus
@@ -67,6 +74,16 @@ public struct ApiPayment : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+final public class PaymentService {
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com") throws
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func createPayment(_ paymentRequest: MoyasarSdk.ApiPaymentRequest) async throws -> MoyasarSdk.ApiPayment
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func createToken(_ tokenRequest: MoyasarSdk.ApiTokenRequest) async throws -> MoyasarSdk.ApiToken
+  #endif
+  @objc deinit
+}
 public enum ApiPaymentStatus : Swift.String, Swift.Codable {
   case initiated
   case paid
@@ -81,6 +98,13 @@ public enum ApiPaymentStatus : Swift.String, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+final public class ApplePayService {
+  public init(apiKey: Swift.String) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func authorizePayment(request: MoyasarSdk.PaymentRequest, token: PassKit.PKPaymentToken) async throws -> MoyasarSdk.ApiPayment
+  #endif
+  @objc deinit
 }
 public struct ApiError : Swift.Codable {
   public var message: Swift.String?
@@ -98,12 +122,6 @@ extension MoyasarSdk.ApiErrorDetail : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public typealias ApiMutliError = [Swift.String : [Swift.String]?]?
-final public class PaymentService {
-  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com")
-  final public func create(_ paymentRequest: MoyasarSdk.ApiPaymentRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiPayment>) throws
-  final public func createToken(_ tokenRequest: MoyasarSdk.ApiTokenRequest, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiToken>) throws
-  @objc deinit
-}
 public enum MoyasarError : Swift.Error {
   case apiKeyNotSet
   case invalidApiKey(Swift.String)
@@ -128,11 +146,6 @@ public struct PaymentRequest {
   public var createSaveOnlyToken: Swift.Bool
   public var allowedNetworks: [MoyasarSdk.CreditCardNetwork]
 }
-final public class ApplePayService {
-  public init(apiKey: Swift.String)
-  final public func authorizePayment(request: MoyasarSdk.PaymentRequest, token: PassKit.PKPaymentToken, handler: @escaping MoyasarSdk.ApiResultHandler<MoyasarSdk.ApiPayment>) throws
-  @objc deinit
-}
 public enum CreditCardNetwork : Swift.CaseIterable {
   case amex
   case mada
@@ -150,7 +163,7 @@ public enum CreditCardNetwork : Swift.CaseIterable {
   }
 }
 public struct ApiApplePaySource : Swift.Codable {
-  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil)
+  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil)
   public var type: Swift.String
   public var token: Swift.String?
   public var company: Swift.String?
@@ -162,6 +175,10 @@ public struct ApiApplePaySource : Swift.Codable {
   public var referenceNumber: Swift.String?
   public var responseCode: Swift.String?
   public var authorizationCode: Swift.String?
+  public var issuerName: Swift.String?
+  public var issuerCountry: Swift.String?
+  public var issuerCardType: Swift.String?
+  public var isserCardCategory: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -213,21 +230,14 @@ public enum PaymentResult {
   case failed(MoyasarSdk.MoyasarError)
   case canceled
 }
-public class CreditCardViewModel : Foundation.ObservableObject {
-  public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback)
+@_Concurrency.MainActor public class CreditCardViewModel : Foundation.ObservableObject {
+  @_Concurrency.MainActor public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback) throws
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-@_Concurrency.MainActor(unsafe) public struct CreditCardView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk14CreditCardViewV4bodyQrvp", 0) __
-}
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
-  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil, company: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil)
+  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil, company: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil)
   public var type: Swift.String
   public var name: Swift.String
   public var number: Swift.String
@@ -244,6 +254,10 @@ public struct ApiCreditCardSource : Swift.Codable {
   public var referenceNumber: Swift.String?
   public var responseCode: Swift.String?
   public var authorizationCode: Swift.String?
+  public var issuerName: Swift.String?
+  public var issuerCountry: Swift.String?
+  public var issuerCardType: Swift.String?
+  public var isserCardCategory: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -258,11 +272,6 @@ public struct ApiPaymentRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum ApiResult<T> {
-  case success(T)
-  case error(MoyasarSdk.MoyasarError)
-}
-public typealias ApiResultHandler<T> = (MoyasarSdk.ApiResult<T>) -> ()
 public struct ApiStcPaySource : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -285,3 +294,4 @@ extension MoyasarSdk.ApiPaymentStatus : Swift.Hashable {}
 extension MoyasarSdk.ApiPaymentStatus : Swift.RawRepresentable {}
 extension MoyasarSdk.CreditCardNetwork : Swift.Equatable {}
 extension MoyasarSdk.CreditCardNetwork : Swift.Hashable {}
+extension MoyasarSdk.CreditCardViewModel : Swift.Sendable {}
