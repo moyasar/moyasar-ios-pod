@@ -2,7 +2,7 @@
 
 ## Installation
 
-To install and setup the SDK follow [this documentation](https://docs.moyasar.com/ios-sdk).
+To install and setup the SDK follow [this documentation](https://docs.mysr.dev/sdk/ios/installation).
 
 ## APIs Documentation
 
