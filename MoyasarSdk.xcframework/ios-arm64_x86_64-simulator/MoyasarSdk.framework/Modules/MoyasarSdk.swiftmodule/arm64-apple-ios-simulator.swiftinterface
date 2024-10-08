@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoyasarSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -16,11 +17,19 @@ import _SwiftConcurrencyShims
 public enum ApiPaymentSource {
   case creditCard(MoyasarSdk.ApiCreditCardSource)
   case applePay(MoyasarSdk.ApiApplePaySource)
-  case stcPay(MoyasarSdk.ApiStcPaySource)
+  case stcPay(MoyasarSdk.ApiSTCPaySource)
 }
 extension MoyasarSdk.ApiPaymentSource : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+@_Concurrency.MainActor @preconcurrency public struct STCPayView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(paymentRequest: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.STCResultCallback)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk10STCPayViewV4bodyQrvp", 0) __
 }
 public struct ApiToken : Swift.Codable {
   public var id: Swift.String
@@ -32,7 +41,7 @@ public struct ApiToken : Swift.Codable {
   public var year: Swift.String
   public var name: Swift.String
   public var lastFour: Swift.String
-  public var metadata: [Swift.String : Swift.String]?
+  public var metadata: [Swift.String : MoyasarSdk.MetadataValue]?
   public var message: Swift.String?
   public var verificationUrl: Swift.String?
   public var createdAt: Swift.String
@@ -40,11 +49,29 @@ public struct ApiToken : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@_Concurrency.MainActor(unsafe) public struct CreditCardView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+public enum MoyasarLanguageCode : Swift.String {
+  case ar
+  case en
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class MoyasarLanguageManager {
+  public static let shared: MoyasarSdk.MoyasarLanguageManager
+  public func setLanguage(_ language: MoyasarSdk.MoyasarLanguageCode)
+  public var currentLanguage: SwiftUICore.LayoutDirection {
+    get
+  }
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct CreditCardView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk14CreditCardViewV4bodyQrvp", 0) __
 }
 public struct ApiPayment : Swift.Codable {
@@ -68,20 +95,17 @@ public struct ApiPayment : Swift.Codable {
   public var callbackUrl: Swift.String?
   public var createdAt: Swift.String
   public var updatedAt: Swift.String
-  public var metadata: [Swift.String : Swift.String]?
+  public var metadata: [Swift.String : MoyasarSdk.MetadataValue]?
   public var source: MoyasarSdk.ApiPaymentSource
   public func isInitiated() -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 final public class PaymentService {
-  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com") throws
-  #if compiler(>=5.3) && $AsyncAwait
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com")
   final public func createPayment(_ paymentRequest: MoyasarSdk.ApiPaymentRequest) async throws -> MoyasarSdk.ApiPayment
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   final public func createToken(_ tokenRequest: MoyasarSdk.ApiTokenRequest) async throws -> MoyasarSdk.ApiToken
-  #endif
+  final public func sendSTCPaymentRequest(url: Foundation.URL, stcOtpRequest: MoyasarSdk.StcOtpRequest) async throws -> MoyasarSdk.ApiPayment
   @objc deinit
 }
 public enum ApiPaymentStatus : Swift.String, Swift.Codable {
@@ -101,9 +125,7 @@ public enum ApiPaymentStatus : Swift.String, Swift.Codable {
 }
 final public class ApplePayService {
   public init(apiKey: Swift.String) throws
-  #if compiler(>=5.3) && $AsyncAwait
   final public func authorizePayment(request: MoyasarSdk.PaymentRequest, token: PassKit.PKPaymentToken) async throws -> MoyasarSdk.ApiPayment
-  #endif
   @objc deinit
 }
 public struct ApiError : Swift.Codable {
@@ -134,17 +156,37 @@ public enum MoyasarError : Swift.Error {
   case webviewUnexpectedError(MoyasarSdk.ApiPayment, any Swift.Error)
 }
 public struct PaymentRequest {
-  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String, metadata: [Swift.String : Swift.String] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = CreditCardNetwork.allCases)
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard], payButtonType: MoyasarSdk.PayButtonType = .pay) throws
   public var apiKey: Swift.String
   public var baseUrl: Swift.String
   public var amount: Swift.Int
   public var currency: Swift.String
-  public var description: Swift.String
-  public var metadata: [Swift.String : Swift.String]
+  public var description: Swift.String?
+  public var metadata: [Swift.String : MoyasarSdk.MetadataValue]
   public var manual: Swift.Bool
   public var saveCard: Swift.Bool
   public var createSaveOnlyToken: Swift.Bool
   public var allowedNetworks: [MoyasarSdk.CreditCardNetwork]
+  public var cashier: Swift.String?
+  public var branch: Swift.String?
+  public var payButtonType: MoyasarSdk.PayButtonType
+}
+public enum PayButtonType {
+  case plain
+  case pay
+  case buy
+  case book
+  case rent
+  case continueType
+  case donate
+  case topUp
+  case order
+  case support
+  public static func == (a: MoyasarSdk.PayButtonType, b: MoyasarSdk.PayButtonType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum CreditCardNetwork : Swift.CaseIterable {
   case amex
@@ -155,7 +197,7 @@ public enum CreditCardNetwork : Swift.CaseIterable {
   public static func == (a: MoyasarSdk.CreditCardNetwork, b: MoyasarSdk.CreditCardNetwork) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [MoyasarSdk.CreditCardNetwork]
-  public static var allCases: [MoyasarSdk.CreditCardNetwork] {
+  nonisolated public static var allCases: [MoyasarSdk.CreditCardNetwork] {
     get
   }
   public var hashValue: Swift.Int {
@@ -197,19 +239,40 @@ public struct ApplePayPaymentPass : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct PaymentAuthView : SwiftUI.UIViewRepresentable {
-  public var url: Foundation.URL
-  public var callback: MoyasarSdk.WebViewResultCallback
-  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> MoyasarSdk.PaymentAuthView.Coordinator
-  @_Concurrency.MainActor(unsafe) public func makeUIView(context: MoyasarSdk.PaymentAuthView.Context) -> WebKit.WKWebView
-  @_Concurrency.MainActor(unsafe) public func updateUIView(_ wkWebView: WebKit.WKWebView, context: MoyasarSdk.PaymentAuthView.Context)
-  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
-    @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-    @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
-    @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+public struct ApiSTCPaySource : Swift.Codable {
+  public let type: Swift.String?
+  public let mobile: Swift.String?
+  public let referenceNumber: Swift.String?
+  public let transactionUrl: Swift.String?
+  public let message: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_Concurrency.MainActor public class STCPayViewModel : Combine.ObservableObject {
+  @_Concurrency.MainActor public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.STCResultCallback)
+  @_Concurrency.MainActor public func initiatePayment() async
+  @_Concurrency.MainActor public func submitOtp() async
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct PaymentAuthView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public var url: Foundation.URL
+  @_Concurrency.MainActor @preconcurrency public var callback: MoyasarSdk.WebViewResultCallback
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> MoyasarSdk.PaymentAuthView.Coordinator
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: MoyasarSdk.PaymentAuthView.Context) -> WebKit.WKWebView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ wkWebView: WebKit.WKWebView, context: MoyasarSdk.PaymentAuthView.Context)
+  @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class Coordinator : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+    @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+    @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+    @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
     @objc deinit
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = Swift.Never
+  @available(iOS 13.0, tvOS 13.0, *)
+  @available(watchOS, unavailable)
+  @available(macOS, unavailable)
   public typealias UIViewType = WebKit.WKWebView
 }
 public typealias WebViewResultCallback = (MoyasarSdk.WebViewResult) -> ()
@@ -231,11 +294,13 @@ public enum PaymentResult {
   case canceled
 }
 @_Concurrency.MainActor public class CreditCardViewModel : Foundation.ObservableObject {
-  @_Concurrency.MainActor public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback) throws
+  @_Concurrency.MainActor public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback)
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
+public typealias STCResultCallback = (Swift.Result<MoyasarSdk.ApiPayment, MoyasarSdk.MoyasarError>) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
   public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil, company: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil)
   public var type: Swift.String
@@ -261,23 +326,32 @@ public struct ApiCreditCardSource : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct StcOtpRequest : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct ApiPaymentRequest : Swift.Codable {
-  public init(amount: Swift.Int, currency: Swift.String, description: Swift.String, callbackUrl: Swift.String? = nil, source: MoyasarSdk.ApiPaymentSource, metadata: [Swift.String : Swift.String]? = nil)
+  public init(paymentRequest: MoyasarSdk.PaymentRequest, callbackUrl: Swift.String? = nil, source: MoyasarSdk.ApiPaymentSource)
+  public var publishableApiKey: Swift.String?
   public var amount: Swift.Int
   public var currency: Swift.String
-  public var description: Swift.String
+  public var description: Swift.String?
   public var callbackUrl: Swift.String?
   public var source: MoyasarSdk.ApiPaymentSource
-  public var metadata: [Swift.String : Swift.String]?
+  public var metadata: [Swift.String : MoyasarSdk.MetadataValue]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ApiStcPaySource : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
+public enum MetadataValue : Swift.Codable {
+  case stringValue(Swift.String)
+  case integerValue(Swift.Int)
+  case floatValue(Swift.Float)
+  case booleanValue(Swift.Bool)
   public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct ApiTokenRequest : Swift.Codable {
-  public init(name: Swift.String, number: Swift.String, cvc: Swift.String?, month: Swift.String?, year: Swift.String?, saveOnly: Swift.Bool = false, callbackUrl: Swift.String?, metadata: [Swift.String : Swift.String]? = [:])
+  public init(name: Swift.String, number: Swift.String, cvc: Swift.String?, month: Swift.String?, year: Swift.String?, saveOnly: Swift.Bool = false, callbackUrl: Swift.String?, metadata: [Swift.String : MoyasarSdk.MetadataValue]? = [:])
   public var name: Swift.String
   public var number: Swift.String
   public var cvc: Swift.String?
@@ -285,13 +359,23 @@ public struct ApiTokenRequest : Swift.Codable {
   public var year: Swift.String?
   public var saveOnly: Swift.Bool
   public var callbackUrl: Swift.String?
-  public var metadata: [Swift.String : Swift.String]?
+  public var metadata: [Swift.String : MoyasarSdk.MetadataValue]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension MoyasarSdk.STCPayView : Swift.Sendable {}
+extension MoyasarSdk.MoyasarLanguageCode : Swift.Equatable {}
+extension MoyasarSdk.MoyasarLanguageCode : Swift.Hashable {}
+extension MoyasarSdk.MoyasarLanguageCode : Swift.RawRepresentable {}
+extension MoyasarSdk.CreditCardView : Swift.Sendable {}
 extension MoyasarSdk.ApiPaymentStatus : Swift.Equatable {}
 extension MoyasarSdk.ApiPaymentStatus : Swift.Hashable {}
 extension MoyasarSdk.ApiPaymentStatus : Swift.RawRepresentable {}
+extension MoyasarSdk.PayButtonType : Swift.Equatable {}
+extension MoyasarSdk.PayButtonType : Swift.Hashable {}
 extension MoyasarSdk.CreditCardNetwork : Swift.Equatable {}
 extension MoyasarSdk.CreditCardNetwork : Swift.Hashable {}
+extension MoyasarSdk.STCPayViewModel : Swift.Sendable {}
+extension MoyasarSdk.PaymentAuthView : Swift.Sendable {}
+extension MoyasarSdk.PaymentAuthView.Coordinator : Swift.Sendable {}
 extension MoyasarSdk.CreditCardViewModel : Swift.Sendable {}
