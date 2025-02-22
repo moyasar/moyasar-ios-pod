@@ -18968,7 +18968,14 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphoneos\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1109,
+      "length": 5,
+      "value": "\"sar\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphoneos\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1232,
       "length": 6,
       "value": "\"visa\""
     }
