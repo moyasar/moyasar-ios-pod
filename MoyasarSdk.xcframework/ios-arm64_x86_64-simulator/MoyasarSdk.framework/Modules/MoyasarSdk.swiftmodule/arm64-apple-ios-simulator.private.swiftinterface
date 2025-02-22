@@ -68,6 +68,7 @@ public enum MoyasarLanguageCode : Swift.String {
 }
 @_Concurrency.MainActor @preconcurrency public struct CreditCardView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(request: MoyasarSdk.PaymentRequest, callback: @escaping MoyasarSdk.ResultCallback)
+  @_Concurrency.MainActor @preconcurrency public init(viewModel: MoyasarSdk.CreditCardViewModel)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
