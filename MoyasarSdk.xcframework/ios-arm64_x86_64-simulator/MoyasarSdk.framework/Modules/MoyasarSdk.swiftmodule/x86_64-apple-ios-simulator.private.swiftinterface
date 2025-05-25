@@ -157,7 +157,7 @@ public enum MoyasarError : Swift.Error {
   case webviewUnexpectedError(MoyasarSdk.ApiPayment, any Swift.Error)
 }
 public struct PaymentRequest {
-  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard], payButtonType: MoyasarSdk.PayButtonType = .pay) throws
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, givenID: Swift.String? = nil, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard], payButtonType: MoyasarSdk.PayButtonType = .pay) throws
   public var apiKey: Swift.String
   public var baseUrl: Swift.String
   public var amount: Swift.Int
@@ -166,6 +166,7 @@ public struct PaymentRequest {
   public var metadata: [Swift.String : MoyasarSdk.MetadataValue]
   public var manual: Swift.Bool
   public var saveCard: Swift.Bool
+  public var givenID: Swift.String?
   public var createSaveOnlyToken: Swift.Bool
   public var allowedNetworks: [MoyasarSdk.CreditCardNetwork]
   public var cashier: Swift.String?
@@ -338,6 +339,7 @@ public struct ApiPaymentRequest : Swift.Codable {
   public var currency: Swift.String
   public var description: Swift.String?
   public var callbackUrl: Swift.String?
+  public var givenID: Swift.String?
   public var source: MoyasarSdk.ApiPaymentSource
   public var metadata: [Swift.String : MoyasarSdk.MetadataValue]?
   public func encode(to encoder: any Swift.Encoder) throws
