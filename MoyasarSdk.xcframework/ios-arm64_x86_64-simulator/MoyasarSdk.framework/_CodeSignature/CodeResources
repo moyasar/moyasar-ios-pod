@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vGbF+XiMckFHOwW68SlcFTDB6Pg=
+		/B3a5tyRyY0Por0fELlJoYS9jgg=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		IjyCND6YMZ+4FFKh5aUermKXfrA=
+		ia6KavmTw9y5rB0x2+MJus5ti8I=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xQz6cJ6fKxVut3bKtepZhMBQDdc=
+		yX7Gkknh6BDpp/eq8+9BsO42bkI=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xQz6cJ6fKxVut3bKtepZhMBQDdc=
+		yX7Gkknh6BDpp/eq8+9BsO42bkI=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dE6TVFRdq8txj49n/ZkUm29w+NM=
+		sjbfnKaeBU/5AS1r+S/JgBv5l4Y=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		IjyCND6YMZ+4FFKh5aUermKXfrA=
+		ia6KavmTw9y5rB0x2+MJus5ti8I=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8cZYDBJTF22p/HU3vB+bbmHUPvo=
+		p8gg0hm2X3veYXSbWQnwEI9naN0=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8cZYDBJTF22p/HU3vB+bbmHUPvo=
+		p8gg0hm2X3veYXSbWQnwEI9naN0=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F9y86QWJ7xUilOsiPsX10Ah4cA8=
+		fwF71crQjnfkO9dredTVN0wK3xA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SZ2FBxAeNFA/Z8WTUFDziSBy40wALelxBcQX/LR0FZc=
+			AsWxdxI/101L56qTcvdbzy7gfZ0ZSxFc9SFpFzzlxc0=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAA0hzVlRwO1d6QjyTU9fjUtkJ/xe5H6Oc7QaIgMF8k=
+			T+0iUGLs6Cp0w0vT6OsnqcukhDzvRm+IaOoqnDeI94E=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -135,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAA0hzVlRwO1d6QjyTU9fjUtkJ/xe5H6Oc7QaIgMF8k=
+			T+0iUGLs6Cp0w0vT6OsnqcukhDzvRm+IaOoqnDeI94E=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cz+Wd0+6JcworJ1oLy0KI7Du6/zI3Eom7MH/zOSsrZA=
+			ExD58zvSIc02wpeIvGezcj5QTQviqJsbvtbOC0S65OM=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SZ2FBxAeNFA/Z8WTUFDziSBy40wALelxBcQX/LR0FZc=
+			AsWxdxI/101L56qTcvdbzy7gfZ0ZSxFc9SFpFzzlxc0=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lEKe/IkCsCAZpanBpRl12h4eQz3BO99C/74VUBsWeM=
+			Rgk6z2yvh8KUqI75la+G3P5wy3HR4k9IAQBKn2IDDEU=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lEKe/IkCsCAZpanBpRl12h4eQz3BO99C/74VUBsWeM=
+			Rgk6z2yvh8KUqI75la+G3P5wy3HR4k9IAQBKn2IDDEU=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			izAN9zHJ93ISARH1ercuLItOeI/UAVX+WadsCc/yMtI=
+			ZidKfxEuMAdv5xktENd9SIwvsbPNcefOCN4bezsDYNA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
