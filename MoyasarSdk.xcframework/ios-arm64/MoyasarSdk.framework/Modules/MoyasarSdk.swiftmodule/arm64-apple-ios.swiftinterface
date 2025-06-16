@@ -125,7 +125,7 @@ public enum ApiPaymentStatus : Swift.String, Swift.Codable {
   }
 }
 final public class ApplePayService {
-  public init(apiKey: Swift.String) throws
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com") throws
   final public func authorizePayment(request: MoyasarSdk.PaymentRequest, token: PassKit.PKPaymentToken) async throws -> MoyasarSdk.ApiPayment
   @objc deinit
 }
@@ -207,7 +207,7 @@ public enum CreditCardNetwork : Swift.CaseIterable {
   }
 }
 public struct ApiApplePaySource : Swift.Codable {
-  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil)
+  public init(type: Swift.String = "applepay", token: Swift.String? = nil, company: Swift.String? = nil, name: Swift.String? = nil, number: Swift.String? = nil, message: Swift.String? = nil, manual: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil, saveCard: Swift.Bool? = false)
   public var type: Swift.String
   public var token: Swift.String?
   public var company: Swift.String?
@@ -223,6 +223,7 @@ public struct ApiApplePaySource : Swift.Codable {
   public var issuerCountry: Swift.String?
   public var issuerCardType: Swift.String?
   public var isserCardCategory: Swift.String?
+  public var saveCard: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -304,7 +305,7 @@ public enum PaymentResult {
 public typealias ResultCallback = (MoyasarSdk.PaymentResult) -> ()
 public typealias STCResultCallback = (Swift.Result<MoyasarSdk.ApiPayment, MoyasarSdk.MoyasarError>) -> ()
 public struct ApiCreditCardSource : Swift.Codable {
-  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.String? = nil, company: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil)
+  public init(type: Swift.String = "creditcard", name: Swift.String, number: Swift.String, month: Swift.String? = nil, year: Swift.String? = nil, cvc: Swift.String? = nil, transactionUrl: Swift.String? = nil, message: Swift.String? = nil, token: Swift.String? = nil, manual: Swift.String? = nil, saveCard: Swift.Bool? = false, company: Swift.String? = nil, gatewayId: Swift.String? = nil, referenceNumber: Swift.String? = nil, responseCode: Swift.String? = nil, authorizationCode: Swift.String? = nil, issuerName: Swift.String? = nil, issuerCountry: Swift.String? = nil, issuerCardType: Swift.String? = nil, isserCardCategory: Swift.String? = nil)
   public var type: Swift.String
   public var name: Swift.String
   public var number: Swift.String
@@ -315,7 +316,7 @@ public struct ApiCreditCardSource : Swift.Codable {
   public var message: Swift.String?
   public var token: Swift.String?
   public var manual: Swift.String?
-  public var saveCard: Swift.String?
+  public var saveCard: Swift.Bool?
   public var company: Swift.String?
   public var gatewayId: Swift.String?
   public var referenceNumber: Swift.String?
