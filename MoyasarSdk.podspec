@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MoyasarSdk'
-  s.version          = '3.0.5'
+  s.version          = '3.0.6'
   s.summary          = 'Moyasar iOS SDK'
 
   s.description      = <<-DESC
@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = {
     'Moyasar Developers' => 'developers@moyasar.com',
-    'Ali Alhoshaiyan' => 'ahoshaiyan@fastmail.com'
+    'Ali Alhoshaiyan' => 'ahoshaiyan@fastmail.com',
+    'Mahmoud Abdulwahab' => 'ma.abdelwahab@moyasar.com'
   }
 
   s.source = { git: 'git@github.com:ahoshaiyan/moyasar-ios-pod.git', branch: 'master' }

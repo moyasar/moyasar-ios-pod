@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoyasarSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoyasarSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -28,7 +28,6 @@ extension MoyasarSdk.ApiPaymentSource : Swift.Codable {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk10STCPayViewV4bodyQrvp", 0) __
 }
 public struct ApiToken : Swift.Codable {
@@ -72,7 +71,6 @@ public enum MoyasarLanguageCode : Swift.String {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s10MoyasarSdk14CreditCardViewV4bodyQrvp", 0) __
 }
 public struct ApiPayment : Swift.Codable {
@@ -197,11 +195,11 @@ public enum CreditCardNetwork : Swift.CaseIterable {
   case mastercard
   case unknown
   public static func == (a: MoyasarSdk.CreditCardNetwork, b: MoyasarSdk.CreditCardNetwork) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [MoyasarSdk.CreditCardNetwork]
   nonisolated public static var allCases: [MoyasarSdk.CreditCardNetwork] {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -255,7 +253,6 @@ public struct ApiSTCPaySource : Swift.Codable {
   @_Concurrency.MainActor public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.STCResultCallback)
   @_Concurrency.MainActor public func initiatePayment() async
   @_Concurrency.MainActor public func submitOtp() async
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -271,11 +268,7 @@ public struct ApiSTCPaySource : Swift.Codable {
     @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
     @objc deinit
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = Swift.Never
-  @available(iOS 13.0, tvOS 13.0, *)
-  @available(watchOS, unavailable)
-  @available(macOS, unavailable)
   public typealias UIViewType = WebKit.WKWebView
 }
 public typealias WebViewResultCallback = (MoyasarSdk.WebViewResult) -> ()
@@ -298,7 +291,6 @@ public enum PaymentResult {
 }
 @_Concurrency.MainActor public class CreditCardViewModel : Foundation.ObservableObject {
   @_Concurrency.MainActor public init(paymentRequest: MoyasarSdk.PaymentRequest, resultCallback: @escaping MoyasarSdk.ResultCallback)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
