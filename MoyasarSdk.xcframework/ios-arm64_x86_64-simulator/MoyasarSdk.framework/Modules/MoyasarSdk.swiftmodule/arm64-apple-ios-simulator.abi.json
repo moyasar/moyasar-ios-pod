@@ -1940,6 +1940,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -12111,6 +12118,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoyasarSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18914,50 +18938,29 @@
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 304,
-      "length": 5,
-      "value": "0.137"
-    },
-    {
-      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 318,
-      "length": 5,
-      "value": "0.359"
-    },
-    {
-      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
-      "kind": "FloatLiteral",
-      "offset": 331,
-      "length": 5,
-      "value": "0.882"
-    },
-    {
-      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
       "kind": "StringLiteral",
-      "offset": 1172,
+      "offset": 1104,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1240,
+      "offset": 1172,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1195,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/CreditCardView\/CreditCardView.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 1223,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
@@ -19130,6 +19133,34 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 16,
+      "value": "\"Aeonik-Regular\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 15,
+      "value": "\"Aeonik-Medium\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "16"
+    },
+    {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/STCPayModule\/ViewModel\/STCPayViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 236,
@@ -19174,7 +19205,7 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView+View.swift",
       "kind": "BooleanLiteral",
-      "offset": 4723,
+      "offset": 4867,
       "length": 5,
       "value": "false"
     },
@@ -19351,26 +19382,33 @@
       "kind": "StringLiteral",
       "offset": 845,
       "length": 6,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 969,
+      "length": 6,
       "value": "\"mada\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 981,
+      "offset": 1105,
       "length": 12,
       "value": "\"mastercard\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1109,
+      "offset": 1233,
       "length": 5,
       "value": "\"sar\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1232,
+      "offset": 1356,
       "length": 6,
       "value": "\"visa\""
     }
