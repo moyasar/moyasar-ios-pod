@@ -18883,28 +18883,28 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/STCPayModule\/View\/STCPayView.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
+      "offset": 1437,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/STCPayModule\/View\/STCPayView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1387,
+      "offset": 1505,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/STCPayModule\/View\/STCPayView.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1528,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/STCPayModule\/View\/STCPayView.swift",
       "kind": "StringLiteral",
-      "offset": 1438,
+      "offset": 1556,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
@@ -19205,7 +19205,7 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView+View.swift",
       "kind": "BooleanLiteral",
-      "offset": 4867,
+      "offset": 5232,
       "length": 5,
       "value": "false"
     },
@@ -19289,28 +19289,28 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 484,
+      "offset": 597,
       "length": 50,
       "value": "\"pk_test_vcFUHJDBwiyRu4Bd3hFuPpTnRPY4gp2ssYdNJMY3\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 552,
+      "offset": 665,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 688,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 716,
       "length": 17,
       "value": "\"Testing iOS SDK\""
     },
