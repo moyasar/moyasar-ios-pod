@@ -378,6 +378,7 @@ public struct ApiSTCPaySource : Swift.Codable {
 @_Concurrency.MainActor @preconcurrency public struct PaymentAuthView : SwiftUI.UIViewRepresentable {
   @_Concurrency.MainActor @preconcurrency public var url: Foundation.URL
   @_Concurrency.MainActor @preconcurrency public var callback: MoyasarSdk.WebViewResultCallback
+  @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL, callback: @escaping MoyasarSdk.WebViewResultCallback)
   @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> MoyasarSdk.PaymentAuthView.Coordinator
   @_Concurrency.MainActor @preconcurrency public func makeUIView(context: MoyasarSdk.PaymentAuthView.Context) -> WebKit.WKWebView
   @_Concurrency.MainActor @preconcurrency public func updateUIView(_ wkWebView: WebKit.WKWebView, context: MoyasarSdk.PaymentAuthView.Context)

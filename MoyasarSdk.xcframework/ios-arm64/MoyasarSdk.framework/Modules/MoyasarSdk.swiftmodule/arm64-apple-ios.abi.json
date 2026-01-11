@@ -14555,6 +14555,54 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentAuthView",
+                "printedName": "MoyasarSdk.PaymentAuthView",
+                "usr": "s:10MoyasarSdk15PaymentAuthViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.WebViewResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebViewResult",
+                    "printedName": "MoyasarSdk.WebViewResult",
+                    "usr": "s:10MoyasarSdk13WebViewResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk15PaymentAuthViewV3url8callbackAC10Foundation3URLV_yAA03WebE6ResultOctcfc",
+            "mangledName": "$s10MoyasarSdk15PaymentAuthViewV3url8callbackAC10Foundation3URLV_yAA03WebE6ResultOctcfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "makeCoordinator",
             "printedName": "makeCoordinator()",
