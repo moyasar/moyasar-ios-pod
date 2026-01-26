@@ -4794,6 +4794,140 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "splits",
+            "printedName": "splits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MoyasarSdk.PaymentSplit]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.PaymentSplit]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentSplit",
+                        "printedName": "MoyasarSdk.PaymentSplit",
+                        "usr": "s:10MoyasarSdk12PaymentSplitV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvp",
+            "mangledName": "$s10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MoyasarSdk.PaymentSplit]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MoyasarSdk.PaymentSplit]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentSplit",
+                            "printedName": "MoyasarSdk.PaymentSplit",
+                            "usr": "s:10MoyasarSdk12PaymentSplitV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvg",
+                "mangledName": "$s10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MoyasarSdk.PaymentSplit]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MoyasarSdk.PaymentSplit]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentSplit",
+                            "printedName": "MoyasarSdk.PaymentSplit",
+                            "usr": "s:10MoyasarSdk12PaymentSplitV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvs",
+                "mangledName": "$s10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvM",
+                "mangledName": "$s10MoyasarSdk10ApiPaymentV6splitsSayAA0D5SplitVGSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "isInitiated",
             "printedName": "isInitiated()",
@@ -6958,7 +7092,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiKey:baseUrl:amount:currency:description:metadata:manual:saveCard:givenID:createSaveOnlyToken:allowedNetworks:payButtonType:)",
+            "printedName": "init(apiKey:baseUrl:amount:currency:description:metadata:manual:saveCard:givenID:createSaveOnlyToken:allowedNetworks:payButtonType:splits:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7085,11 +7219,34 @@
                 "printedName": "MoyasarSdk.PayButtonType",
                 "hasDefaultArg": true,
                 "usr": "s:10MoyasarSdk13PayButtonTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MoyasarSdk.PaymentSplit]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.PaymentSplit]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentSplit",
+                        "printedName": "MoyasarSdk.PaymentSplit",
+                        "usr": "s:10MoyasarSdk12PaymentSplitV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard7givenID19createSaveOnlyToken15allowedNetworks13payButtonTypeACSS_SSSiS2SSgSDySSAA13MetadataValueOGS2bAPSbSayAA06CreditO7NetworkOGAA03PayyZ0OtKcfc",
-            "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard7givenID19createSaveOnlyToken15allowedNetworks13payButtonTypeACSS_SSSiS2SSgSDySSAA13MetadataValueOGS2bAPSbSayAA06CreditO7NetworkOGAA03PayyZ0OtKcfc",
+            "usr": "s:10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard7givenID19createSaveOnlyToken15allowedNetworks13payButtonType6splitsACSS_SSSiS2SSgSDySSAA13MetadataValueOGS2bAQSbSayAA06CreditO7NetworkOGAA03PayyZ0OSayAA0C5SplitVGSgtKcfc",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV6apiKey7baseUrl6amount8currency11description8metadata6manual8saveCard7givenID19createSaveOnlyToken15allowedNetworks13payButtonType6splitsACSS_SSSiS2SSgSDySSAA13MetadataValueOGS2bAQSbSayAA06CreditO7NetworkOGAA03PayyZ0OSayAA0C5SplitVGSgtKcfc",
             "moduleName": "MoyasarSdk",
             "declAttributes": [
               "AccessControl"
@@ -8452,6 +8609,140 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "splits",
+            "printedName": "splits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MoyasarSdk.PaymentSplit]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.PaymentSplit]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentSplit",
+                        "printedName": "MoyasarSdk.PaymentSplit",
+                        "usr": "s:10MoyasarSdk12PaymentSplitV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvp",
+            "mangledName": "$s10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MoyasarSdk.PaymentSplit]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MoyasarSdk.PaymentSplit]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentSplit",
+                            "printedName": "MoyasarSdk.PaymentSplit",
+                            "usr": "s:10MoyasarSdk12PaymentSplitV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvg",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MoyasarSdk.PaymentSplit]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MoyasarSdk.PaymentSplit]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentSplit",
+                            "printedName": "MoyasarSdk.PaymentSplit",
+                            "usr": "s:10MoyasarSdk12PaymentSplitV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvs",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvM",
+                "mangledName": "$s10MoyasarSdk14PaymentRequestV6splitsSayAA0C5SplitVGSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -8475,6 +8766,718 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentSplit",
+        "printedName": "PaymentSplit",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(recipientId:amount:reference:description:feeSource:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentSplit",
+                "printedName": "MoyasarSdk.PaymentSplit",
+                "usr": "s:10MoyasarSdk12PaymentSplitV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk12PaymentSplitV11recipientId6amount9reference11description9feeSourceACSS_SiSSSgAISbSgtcfc",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV11recipientId6amount9reference11description9feeSourceACSS_SiSSSgAISbSgtcfc",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "recipientId",
+            "printedName": "recipientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk12PaymentSplitV11recipientIdSSvp",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV11recipientIdSSvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV11recipientIdSSvg",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV11recipientIdSSvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV11recipientIdSSvs",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV11recipientIdSSvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV11recipientIdSSvM",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV11recipientIdSSvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk12PaymentSplitV6amountSivp",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV6amountSivp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV6amountSivg",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV6amountSivg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV6amountSivs",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV6amountSivs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV6amountSivM",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV6amountSivM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference",
+            "printedName": "reference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk12PaymentSplitV9referenceSSSgvp",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV9referenceSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV9referenceSSSgvg",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV9referenceSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV9referenceSSSgvs",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV9referenceSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV9referenceSSSgvM",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV9referenceSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk12PaymentSplitV11descriptionSSSgvp",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV11descriptionSSSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV11descriptionSSSgvg",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV11descriptionSSSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV11descriptionSSSgvs",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV11descriptionSSSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV11descriptionSSSgvM",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV11descriptionSSSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "feeSource",
+            "printedName": "feeSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk12PaymentSplitV9feeSourceSbSgvp",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV9feeSourceSbSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV9feeSourceSbSgvg",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV9feeSourceSbSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV9feeSourceSbSgvs",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV9feeSourceSbSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk12PaymentSplitV9feeSourceSbSgvM",
+                "mangledName": "$s10MoyasarSdk12PaymentSplitV9feeSourceSbSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentSplit",
+                "printedName": "MoyasarSdk.PaymentSplit",
+                "usr": "s:10MoyasarSdk12PaymentSplitV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MoyasarSdk12PaymentSplitV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MoyasarSdk",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk12PaymentSplitV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MoyasarSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentSplit",
+                "printedName": "MoyasarSdk.PaymentSplit",
+                "usr": "s:10MoyasarSdk12PaymentSplitV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentSplit",
+                "printedName": "MoyasarSdk.PaymentSplit",
+                "usr": "s:10MoyasarSdk12PaymentSplitV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MoyasarSdk12PaymentSplitV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10MoyasarSdk12PaymentSplitV2eeoiySbAC_ACtFZ",
+            "moduleName": "MoyasarSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10MoyasarSdk12PaymentSplitV",
+        "mangledName": "$s10MoyasarSdk12PaymentSplitV",
+        "moduleName": "MoyasarSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -19394,6 +20397,140 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "splits",
+            "printedName": "splits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MoyasarSdk.PaymentSplit]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoyasarSdk.PaymentSplit]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentSplit",
+                        "printedName": "MoyasarSdk.PaymentSplit",
+                        "usr": "s:10MoyasarSdk12PaymentSplitV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvp",
+            "mangledName": "$s10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvp",
+            "moduleName": "MoyasarSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MoyasarSdk.PaymentSplit]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MoyasarSdk.PaymentSplit]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentSplit",
+                            "printedName": "MoyasarSdk.PaymentSplit",
+                            "usr": "s:10MoyasarSdk12PaymentSplitV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvg",
+                "mangledName": "$s10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvg",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[MoyasarSdk.PaymentSplit]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MoyasarSdk.PaymentSplit]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentSplit",
+                            "printedName": "MoyasarSdk.PaymentSplit",
+                            "usr": "s:10MoyasarSdk12PaymentSplitV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvs",
+                "mangledName": "$s10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvs",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvM",
+                "mangledName": "$s10MoyasarSdk17ApiPaymentRequestV6splitsSayAA0D5SplitVGSgvM",
+                "moduleName": "MoyasarSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -21741,14 +22878,14 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1898,
       "length": 26,
       "value": "\"^pk_(test|live)_.{40}$\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Array",
-      "offset": 1828,
+      "offset": 1935,
       "length": 2,
       "value": "[]"
     },
@@ -22021,14 +23158,14 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
+      "offset": 1207,
       "length": 21,
       "value": "\"publishable_api_key\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1254,
       "length": 10,
       "value": "\"given_id\""
     },
