@@ -30,43 +30,43 @@
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RIwKCdK43MAZ8oRrghF6SJ3x88E=
+		x19t9cF83rIVyLS0ANGqjMU/dBA=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		p1+9l+zAUugCVQmcMMlU1UMTLOc=
+		h4D21MFHjX45vitDe4ZObw+Bex0=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BkCXReNkoA/WtlXlS9vZSRES4JA=
+		OSuQxHPokIKL99ZcU+BjiXB1yQk=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		p1+9l+zAUugCVQmcMMlU1UMTLOc=
+		h4D21MFHjX45vitDe4ZObw+Bex0=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gyA0cHMfVX272IqJIfKGnrYbZQI=
+		pWEGuej/K/Mma3AP+0Ol2H7yqrI=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RIwKCdK43MAZ8oRrghF6SJ3x88E=
+		x19t9cF83rIVyLS0ANGqjMU/dBA=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BtWCuHonDzGtdY2ALV/LoEGXdws=
+		aZ3lHeq7SH/1iPQHEyJ4dImK6CM=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YU1zvIiAxEsnbmwmELZMkx4B1AU=
+		B5MrUJmz5qYK7oTMrStWtzPaFNM=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BtWCuHonDzGtdY2ALV/LoEGXdws=
+		aZ3lHeq7SH/1iPQHEyJ4dImK6CM=
 		</data>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0cwo+t5XfZEw6y9+idv+mrq9Lhs=
+		rBPn3eIz285kj7UbgpZXyXNt2Rg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,70 +136,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPybIDwIqEnjcTlD4eACak0rryXrm/KAYYSZtiCwlgY=
+			qvELWXAFRv4nupcpkNFnay3NPCR7xbmjJZdtxXyPzSI=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXSBL14athqnoy9RTMd+eZ7grxvjl3UpK2do+7q0MUE=
+			Mqjb+8WKun4F7vQlrEO2NHyc4fUm/7aeLERvuc2nFao=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/veprN+SojXQ+Xr7AcUyi/oC7akuzInJ35Qb8ALE6es=
+			AjvCSEUEW7K74PkdDuReIr08NeBqb72gnzP3RFwnCbc=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXSBL14athqnoy9RTMd+eZ7grxvjl3UpK2do+7q0MUE=
+			Mqjb+8WKun4F7vQlrEO2NHyc4fUm/7aeLERvuc2nFao=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w1OwHeHvHIXg14zQyE0V1JGBiLWtEtjPE0m4/+7On9Q=
+			l1/KCLgPGpbup1PpTTswofYTSmtywLHVaAeyCvof5YM=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPybIDwIqEnjcTlD4eACak0rryXrm/KAYYSZtiCwlgY=
+			qvELWXAFRv4nupcpkNFnay3NPCR7xbmjJZdtxXyPzSI=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7llALdCjqNnEUnwdT9y6CZvctF8jKaG+FbS7TKYY+lo=
+			brR4HtTS88KN7ssTVfiRLFg7PSotIo8qV1hnVsUOtpY=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bJiH+pLOXTvVAetBiwf9FTEIrCAoWM0xSvooDznYJf8=
+			tUzMemDg+vuwaN2/89sz33fhzADHD2mReW6pYbc8+8A=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7llALdCjqNnEUnwdT9y6CZvctF8jKaG+FbS7TKYY+lo=
+			brR4HtTS88KN7ssTVfiRLFg7PSotIo8qV1hnVsUOtpY=
 			</data>
 		</dict>
 		<key>Modules/MoyasarSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0ogaSW6ifxSJBUsJbUM0aEZ7VLXpRV25F52rgcxLLU=
+			wfNYqa96wbWyz1Aqic8K6o2V/LE6kq5pXSrsw6gqNAA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

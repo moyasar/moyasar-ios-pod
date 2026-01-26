@@ -194,19 +194,6 @@ public struct PaymentRequest {
   public var payButtonType: MoyasarSdk.PayButtonType
   public var splits: [MoyasarSdk.PaymentSplit]?
 }
-public struct PaymentSplit : Swift.Codable, Swift.Equatable {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(recipientId: Swift.String, amount: Swift.Int, reference: Swift.String? = nil, description: Swift.String? = nil, feeSource: Swift.Bool? = nil)
-  #endif
-  public var recipientId: Swift.String
-  public var amount: Swift.Int
-  public var reference: Swift.String?
-  public var description: Swift.String?
-  public var feeSource: Swift.Bool?
-  public static func == (a: MoyasarSdk.PaymentSplit, b: MoyasarSdk.PaymentSplit) -> Swift.Bool
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public enum PayButtonType {
   case plain
   case pay
@@ -283,6 +270,20 @@ public struct ApplePayPaymentPass : Swift.Codable {
   public func validate(value: Swift.String) -> Swift.String?
   #endif
   @objc deinit
+}
+public struct PaymentSplit : Swift.Codable, Swift.Equatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(recipientId: Swift.String, amount: Swift.Int, reference: Swift.String? = nil, description: Swift.String? = nil, feeSource: Swift.Bool? = nil, refundable: Swift.Bool? = nil)
+  #endif
+  public var recipientId: Swift.String
+  public var amount: Swift.Int
+  public var reference: Swift.String?
+  public var description: Swift.String?
+  public var feeSource: Swift.Bool?
+  public var refundable: Swift.Bool?
+  public static func == (a: MoyasarSdk.PaymentSplit, b: MoyasarSdk.PaymentSplit) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ApiSTCPaySource : Swift.Codable {
   public let type: Swift.String?
