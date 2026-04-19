@@ -176,7 +176,7 @@ public enum MoyasarError : Swift.Error {
 }
 public struct PaymentRequest {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, givenID: Swift.String? = nil, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard], payButtonType: MoyasarSdk.PayButtonType = .pay, splits: [MoyasarSdk.PaymentSplit]? = nil) throws
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, givenID: Swift.String? = nil, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard], payButtonType: MoyasarSdk.PayButtonType = .pay, splits: [MoyasarSdk.PaymentSplit]? = nil, applyCoupon: Swift.Bool? = true) throws
   #endif
   public var apiKey: Swift.String
   public var baseUrl: Swift.String
@@ -193,6 +193,7 @@ public struct PaymentRequest {
   public var branch: Swift.String?
   public var payButtonType: MoyasarSdk.PayButtonType
   public var splits: [MoyasarSdk.PaymentSplit]?
+  public var applyCoupon: Swift.Bool?
 }
 public enum PayButtonType {
   case plain
@@ -273,14 +274,15 @@ public struct ApplePayPaymentPass : Swift.Codable {
 }
 public struct PaymentSplit : Swift.Codable, Swift.Equatable {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(recipientId: Swift.String, amount: Swift.Int, reference: Swift.String? = nil, description: Swift.String? = nil, feeSource: Swift.Bool? = nil, refundable: Swift.Bool? = nil)
+  public init(recipientId: Swift.String, amount: Swift.Int, recipientType: Swift.String? = nil, reference: Swift.String? = nil, description: Swift.String? = nil, feeSource: Swift.Bool = false, refundable: Swift.Bool = true)
   #endif
   public var recipientId: Swift.String
   public var amount: Swift.Int
+  public var recipientType: Swift.String?
   public var reference: Swift.String?
   public var description: Swift.String?
-  public var feeSource: Swift.Bool?
-  public var refundable: Swift.Bool?
+  public var feeSource: Swift.Bool
+  public var refundable: Swift.Bool
   public static func == (a: MoyasarSdk.PaymentSplit, b: MoyasarSdk.PaymentSplit) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -480,6 +482,7 @@ public struct ApiPaymentRequest : Swift.Codable {
   public var source: MoyasarSdk.ApiPaymentSource
   public var metadata: [Swift.String : MoyasarSdk.MetadataValue]?
   public var splits: [MoyasarSdk.PaymentSplit]?
+  public var applyCoupon: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
