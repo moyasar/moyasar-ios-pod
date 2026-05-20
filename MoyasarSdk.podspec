@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MoyasarSdk'
-  s.version          = '3.2.3'
+  s.version          = '3.2.2'
   s.summary          = 'Moyasar iOS SDK'
 
   s.description      = <<-DESC
