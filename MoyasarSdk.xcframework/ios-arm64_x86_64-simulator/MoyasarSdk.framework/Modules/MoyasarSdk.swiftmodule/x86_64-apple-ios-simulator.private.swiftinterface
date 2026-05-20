@@ -176,7 +176,7 @@ public enum MoyasarError : Swift.Error {
 }
 public struct PaymentRequest {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, givenID: Swift.String? = nil, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard], payButtonType: MoyasarSdk.PayButtonType = .pay, splits: [MoyasarSdk.PaymentSplit]? = nil, applyCoupon: Swift.Bool? = true) throws
+  public init(apiKey: Swift.String, baseUrl: Swift.String = "https://api.moyasar.com", amount: Swift.Int, currency: Swift.String = "SAR", description: Swift.String? = nil, metadata: [Swift.String : MoyasarSdk.MetadataValue] = [:], manual: Swift.Bool = false, saveCard: Swift.Bool = false, givenID: Swift.String? = nil, createSaveOnlyToken: Swift.Bool = false, allowedNetworks: [MoyasarSdk.CreditCardNetwork] = [.mada, .visa, .mastercard, .unionpay], payButtonType: MoyasarSdk.PayButtonType = .pay, splits: [MoyasarSdk.PaymentSplit]? = nil, applyCoupon: Swift.Bool? = true) throws
   #endif
   public var apiKey: Swift.String
   public var baseUrl: Swift.String
@@ -217,6 +217,7 @@ public enum CreditCardNetwork : Swift.CaseIterable {
   case mada
   case visa
   case mastercard
+  case unionpay
   case unknown
   public static func == (a: MoyasarSdk.CreditCardNetwork, b: MoyasarSdk.CreditCardNetwork) -> Swift.Bool
   public typealias AllCases = [MoyasarSdk.CreditCardNetwork]

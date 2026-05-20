@@ -9569,6 +9569,43 @@
           },
           {
             "kind": "Var",
+            "name": "unionpay",
+            "printedName": "unionpay",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoyasarSdk.CreditCardNetwork.Type) -> MoyasarSdk.CreditCardNetwork",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CreditCardNetwork",
+                    "printedName": "MoyasarSdk.CreditCardNetwork",
+                    "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoyasarSdk.CreditCardNetwork.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreditCardNetwork",
+                        "printedName": "MoyasarSdk.CreditCardNetwork",
+                        "usr": "s:10MoyasarSdk17CreditCardNetworkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MoyasarSdk17CreditCardNetworkO8unionpayyA2CmF",
+            "mangledName": "$s10MoyasarSdk17CreditCardNetworkO8unionpayyA2CmF",
+            "moduleName": "MoyasarSdk"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -23305,21 +23342,21 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 709,
+      "offset": 720,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2001,
+      "offset": 2012,
       "length": 26,
       "value": "\"^pk_(test|live)_.{40}$\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Models\/PaymentRequest.swift",
       "kind": "Array",
-      "offset": 2038,
+      "offset": 2049,
       "length": 2,
       "value": "[]"
     },
@@ -23425,6 +23462,34 @@
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
       "kind": "Array",
       "offset": 423,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 15,
+      "value": "\"^(62|60|81)\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "Array",
+      "offset": 513,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 28,
+      "value": "\"^(62|60|81)[0-9]{14,17}$\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardUtil.swift",
+      "kind": "Array",
+      "offset": 615,
       "length": 2,
       "value": "[]"
     },
@@ -23704,7 +23769,14 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1364,
+      "length": 10,
+      "value": "\"unionpay\""
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Library\/Developer\/Xcode\/DerivedData\/MoyasarSdk-fluipuwgcwfszihfigenffkbnqgu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MoyasarSdk\/IntermediateBuildFilesPath\/MoyasarSdk.build\/Release-iphonesimulator\/MoyasarSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
       "length": 6,
       "value": "\"visa\""
     }
