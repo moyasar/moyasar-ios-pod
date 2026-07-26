@@ -23272,21 +23272,21 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
-      "offset": 852,
+      "offset": 859,
       "length": 19,
       "value": "\"Value is required\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/TextEditGroup.swift",
       "kind": "StringLiteral",
-      "offset": 893,
+      "offset": 900,
       "length": 2,
       "value": "\"\""
     },
@@ -23496,30 +23496,37 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
       "kind": "StringLiteral",
-      "offset": 221,
-      "length": 16,
-      "value": "\"Aeonik-Regular\""
-    },
-    {
-      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 2,
-      "value": "16"
+      "offset": 538,
+      "length": 19,
+      "value": "\"ReadexPro-Regular\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
       "kind": "StringLiteral",
-      "offset": 309,
-      "length": 15,
-      "value": "\"Aeonik-Medium\""
+      "offset": 576,
+      "length": 18,
+      "value": "\"ReadexPro-Medium\""
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 332,
+      "offset": 2388,
       "length": 2,
       "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2490,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/FontExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2585,
+      "length": 2,
+      "value": "12"
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/STCPayModule\/ViewModel\/STCPayViewModel.swift",
@@ -23566,7 +23573,7 @@
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Views\/Components\/CreditCardInfoComponent\/CreditCardInfoView+View.swift",
       "kind": "BooleanLiteral",
-      "offset": 5232,
+      "offset": 5226,
       "length": 5,
       "value": "false"
     },
@@ -23681,6 +23688,55 @@
       "offset": 194,
       "length": 1880,
       "value": "[\"22337902\", \"22337986\", \"22402030\", \"242030\", \"403024\", \"40545400\", \"406136\", \"406996\", \"40719700\", \"40739500\", \"407520\", \"409201\", \"410621\", \"410685\", \"410834\", \"412565\", \"417633\", \"419593\", \"420132\", \"421141\", \"422817\", \"422818\", \"422819\", \"428331\", \"428671\", \"428672\", \"428673\", \"431361\", \"432328\", \"434107\", \"439954\", \"440533\", \"440647\", \"440795\", \"442463\", \"445564\", \"446393\", \"446404\", \"446672\", \"45488707\", \"455036\", \"455708\", \"457865\", \"457997\", \"458456\", \"462220\", \"468540\", \"468541\", \"468542\", \"468543\", \"474491\", \"483010\", \"483011\", \"483012\", \"484783\", \"486094\", \"486095\", \"486096\", \"489318\", \"489319\", \"49098000\", \"492464\", \"504300\", \"513213\", \"515079\", \"516138\", \"520058\", \"521076\", \"52166100\", \"524130\", \"524514\", \"524940\", \"529415\", \"529741\", \"530060\", \"531196\", \"535825\", \"535989\", \"536023\", \"537767\", \"53973776\", \"543085\", \"543357\", \"549760\", \"554180\", \"555610\", \"558563\", \"588845\", \"588848\", \"588850\", \"589206\", \"604906\", \"636120\", \"968201\", \"968202\", \"968203\", \"968204\", \"968205\", \"968206\", \"968207\", \"968208\", \"968209\", \"968211\"]"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Helpers\/CreditCardFormatter.swift",
+      "kind": "Array",
+      "offset": 481,
+      "length": 9,
+      "value": "[4, 6, 5]"
     },
     {
       "filePath": "\/Users\/mahmoudabdelwahab\/Documents\/Moyasar\/moyasar-ios-sdk\/Sdk\/MoyasarSdk\/Services\/Models\/ApiPaymentRequest.swift",
